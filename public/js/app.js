@@ -31,10 +31,6 @@ const API = {
             result = { message: text.trim() };
         }
 
-        if (!result?.message) {
-            result = { ...(result || {}), message: `Error HTTP ${response.status}` };
-        }
-
         if (!response.ok) {
             throw new Error(result.message || 'Error en la petición');
         }

@@ -86,6 +86,16 @@ export default async (request) => {
             });
         }
 
+        if (request.method === 'GET' && route === '/debug/public-state-summary') {
+            const state = await getState();
+            return json({
+                users: state.users.length,
+                motors: state.motors.length,
+                inspections: state.inspections.length,
+                inspectionDetails: state.inspectionDetails.length
+            });
+        }
+
         if (request.method === 'POST' && route === '/users') {
             const result = await updateState(async (state) => {
                 requirePermission(state, getUserId(request, body), 'users:create');
