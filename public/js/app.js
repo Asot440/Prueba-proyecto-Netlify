@@ -21,7 +21,19 @@ const API = {
 
     async request(url, options = {}) {
         const response = await fetch(url, options);
-        const result = await response.json();
+        const contentType = response.headers.get('content-type') || '';
+        let result = null;
+
+        if (contentType.includes('application/json')) {
+            result = await response.json();
+        } else {
+            const text = await response.text();
+            result = { message: text.trim() };
+        }
+
+        if (!result?.message) {
+            result = { ...(result || {}), message: `Error HTTP ${response.status}` };
+        }
 
         if (!response.ok) {
             throw new Error(result.message || 'Error en la petición');
