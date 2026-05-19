@@ -1,0 +1,6610 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password_hash": "$2b$12$CUcZWXVTH4cZDcEVWUXrn.4/3GybQth0D.GKc7vEKiQHmSK5CyFVy",
+      "role": "admin",
+      "permissions": "[\"users:create\",\"users:read\",\"motors:create\",\"motors:read\",\"inspections:create\",\"reports:read\"]"
+    },
+    {
+      "id": 7,
+      "username": "MGA",
+      "password_hash": "$2b$12$slgoVUkbIx/b6lidKL5fWOwWufxRmp00Xve8.YJdD73EvpkI4aoN2",
+      "role": "technician",
+      "permissions": "[\"motors:read\",\"inspections:create\",\"reports:read\"]"
+    }
+  ],
+  "motors": [
+    {
+      "id": 168,
+      "equipment_key": "CDP-0010-PPPS",
+      "name": "MB ALIM. LIMP. ALTA CONSISTENCIA SIST. CARA",
+      "area": "Central de pastas",
+      "nominal_current": 57,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 169,
+      "equipment_key": "CDP-0020-PPPS",
+      "name": "MB ALIM. CRIBA GRUESA CUATERNARÍA SIST. CARA M362",
+      "area": "Central de pastas",
+      "nominal_current": 23.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 170,
+      "equipment_key": "CDP-0030-PPPS",
+      "name": "M. AGIT. TQ. ALIM. DAF TAURO 4.1 M341A",
+      "area": "Central de pastas",
+      "nominal_current": 4.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 171,
+      "equipment_key": "CDP-0040-PPPS",
+      "name": "MB ALIM. ESPESADOR ELEPHANT M330B",
+      "area": "Central de pastas",
+      "nominal_current": 17.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 172,
+      "equipment_key": "CDP-0050-PPPS",
+      "name": "MB ALIM. LODOS A TAURO SISTEMA DE RECHAZOS M341B",
+      "area": "Central de pastas",
+      "nominal_current": 26,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 173,
+      "equipment_key": "CDP-0060-PPPS",
+      "name": "M. AGIT. TQ. RECH. DAF TAURO 4.1 M330",
+      "area": "Central de pastas",
+      "nominal_current": 4.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 174,
+      "equipment_key": "CDP-0070-PPPS",
+      "name": "MB DE DRENAJE NO. 6",
+      "area": "Central de pastas",
+      "nominal_current": 49.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 175,
+      "equipment_key": "CDP-0080-PPPS",
+      "name": "MB CÁRCAMO FOSA BBA. DE DRENAJE NO.6",
+      "area": "Central de pastas",
+      "nominal_current": 6.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 176,
+      "equipment_key": "CDP-0090-PPPS",
+      "name": "MB ALIM. A REGADERAS M1",
+      "area": "Central de pastas",
+      "nominal_current": 66,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 177,
+      "equipment_key": "CDP-0100-PPPS",
+      "name": "MB DESCARGA HIDRAPULPER NO. 5",
+      "area": "Central de pastas",
+      "nominal_current": 66,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 178,
+      "equipment_key": "CDP-0110-PPPS",
+      "name": "MB DE LUBRICACIÓN HIDRA NO. 5",
+      "area": "Central de pastas",
+      "nominal_current": 2.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 179,
+      "equipment_key": "CDP-0120-PPPSC",
+      "name": "M. TRANSMISIÓN HIDRAPULPER No. 5",
+      "area": "Central de pastas",
+      "nominal_current": 336,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 180,
+      "equipment_key": "CDP-0130-PPPS",
+      "name": "MB ALIM. A LIMPIADORES CENTRALES LW SIST. CARA M315",
+      "area": "Central de pastas",
+      "nominal_current": 36,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 181,
+      "equipment_key": "CDP-0140-PPPS",
+      "name": "MB ALIM. CRIBA FINA SECUNDARIA SISTEMA CARA",
+      "area": "Central de pastas",
+      "nominal_current": 115,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 182,
+      "equipment_key": "CDP-0150-PPPS",
+      "name": "MB ALIM. CRIBA FINA PRIMARIA SIST. CARA M319",
+      "area": "Central de pastas",
+      "nominal_current": 222,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 183,
+      "equipment_key": "CDP-0160-PPPS",
+      "name": "MB ALIM. CRIBA GRUESA SECUNDARIA SIST. CARA M334",
+      "area": "Central de pastas",
+      "nominal_current": 36,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 184,
+      "equipment_key": "CDP-0170-PPPS",
+      "name": "MB ALIM. CRIBA FINA TERCIARIA SIST. CARA M449",
+      "area": "Central de pastas",
+      "nominal_current": 23,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 185,
+      "equipment_key": "CDP-0180-PPPS",
+      "name": "MB ALIM. LIMP. TERCIARIOS HW SISTEMA CARA M378",
+      "area": "Central de pastas",
+      "nominal_current": 49.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 186,
+      "equipment_key": "CDP-0190-PPPS",
+      "name": "MB ALIM. LIMPIADORES PRIMARIOS LW SIST. CARA M321",
+      "area": "Central de pastas",
+      "nominal_current": 112,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 187,
+      "equipment_key": "CDP-0200-PPPS",
+      "name": "MB ALIM. LIMP. SECUNDARIOS LW SIST. CARA M322",
+      "area": "Central de pastas",
+      "nominal_current": 29.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 188,
+      "equipment_key": "CDP-0210-PPPS",
+      "name": "MB ALIM. AGUA DILUCIÓN A PULPERS M452",
+      "area": "Central de pastas",
+      "nominal_current": 167,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 189,
+      "equipment_key": "CDP-0220-PPPS",
+      "name": "MB ALIM. AGUA  DILUCIÓN  SIST. CARA M467",
+      "area": "Central de pastas",
+      "nominal_current": 143,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 190,
+      "equipment_key": "CDP-0230-PPPS",
+      "name": "MB AGUA CONTROL DE CONSISTENCIA M366",
+      "area": "Central de pastas",
+      "nominal_current": 52,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 191,
+      "equipment_key": "CDP-0240-PPPS",
+      "name": "M. AGIT. TQ. PASTA ESPESADA REV. M1",
+      "area": "Central de pastas",
+      "nominal_current": 61,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 192,
+      "equipment_key": "CDP-0250-PPPS",
+      "name": "MB TQ. PASTA ESP. REV. MÁQ.1",
+      "area": "Central de pastas",
+      "nominal_current": 52,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 193,
+      "equipment_key": "CDP-0260-PPPS",
+      "name": "MB AUX. ALIM. PASTA ESP. REV. MAQ.1",
+      "area": "Central de pastas",
+      "nominal_current": 30,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 194,
+      "equipment_key": "CDP-0270-PPPS",
+      "name": "MB TQ. PASTA ESPESADA CARA M1",
+      "area": "Central de pastas",
+      "nominal_current": 34.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 195,
+      "equipment_key": "CDP-0280-PPPS",
+      "name": "M. AGIT. TQ. PASTA ESPESADA CARA M1",
+      "area": "Central de pastas",
+      "nominal_current": 38,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 196,
+      "equipment_key": "CDP-0285-PPPSC",
+      "name": "MB TQ. PASTA ESP. SIST. CARA M2",
+      "area": "Central de pastas",
+      "nominal_current": 112,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 197,
+      "equipment_key": "CDP-0287-PPPSC",
+      "name": "M. AGIT. TQ. PASTA ESP. SIST. CARA M2",
+      "area": "Central de pastas",
+      "nominal_current": 58,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 198,
+      "equipment_key": "CDP-0290-PPPS",
+      "name": "MB DE RECHAZOS DEPURADORES M 1 Y M 2 AUXILIAR",
+      "area": "Central de pastas",
+      "nominal_current": 87.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 199,
+      "equipment_key": "CDP-0300-PPPS",
+      "name": "MB DE RECHAZOS DEPURADORES M 1 Y M 2 PRINCIPAL",
+      "area": "Central de pastas",
+      "nominal_current": 86.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 200,
+      "equipment_key": "CDP-0310-PPPS",
+      "name": "M. AGIT. TQ. RECH. DEPURADORES MAQ. 1-2",
+      "area": "Central de pastas",
+      "nominal_current": 37,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 201,
+      "equipment_key": "CDP-0320-PPPS",
+      "name": "MB ALIM. AGUA HIDRAPULPER NO. 2 Y NO. 3",
+      "area": "Central de pastas",
+      "nominal_current": 61.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 202,
+      "equipment_key": "CDP-0330-PPPS",
+      "name": "MB AGUA CONTROL NIVEL HIDRAPULPER M287N",
+      "area": "Central de pastas",
+      "nominal_current": 85.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 203,
+      "equipment_key": "CDP-0335-PPPSC",
+      "name": "MB ALIM. A TANQUE MÁQUINA CARA M3",
+      "area": "Central de pastas",
+      "nominal_current": 66,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 204,
+      "equipment_key": "CDP-0337-PPPSC",
+      "name": "M. AGIT. TQ. PASTA ESPESADA CARA M3",
+      "area": "Central de pastas",
+      "nominal_current": 46,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 205,
+      "equipment_key": "CDP-0340-PPPS",
+      "name": "M. AGIT. NO. 1 DESC. HIDRAS NO. 3 Y NO. 4",
+      "area": "Central de pastas",
+      "nominal_current": 38.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 206,
+      "equipment_key": "CDP-0350-PPPS",
+      "name": "MB ALIM. CRIBA GRUESA PRIMARIA SIST. CARA M336",
+      "area": "Central de pastas",
+      "nominal_current": 145,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 207,
+      "equipment_key": "CDP-0360-PPPS",
+      "name": "M. AGIT. NO. 2 DESC. DE HIDRAS NO. 3 Y NO.  4",
+      "area": "Central de pastas",
+      "nominal_current": 46,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 208,
+      "equipment_key": "CDP-0370-PPPS",
+      "name": "MB DESCARGA HIDRAPULPER NO. 3",
+      "area": "Central de pastas",
+      "nominal_current": 69,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 209,
+      "equipment_key": "CDP-0380-PPPS",
+      "name": "MB DE LUBRICACIÓN HIDRAPULPER NO. 3",
+      "area": "Central de pastas",
+      "nominal_current": 2.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 210,
+      "equipment_key": "CDP-0390-PPPS",
+      "name": "M. VENTILADOR ENFRIAMIENTO ACEITE HIDRAPULPER NO.3",
+      "area": "Central de pastas",
+      "nominal_current": 0.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 211,
+      "equipment_key": "CDP-0400-PPPSC",
+      "name": "M. TRANSMISIÓN HIDRAPULPER No.3",
+      "area": "Central de pastas",
+      "nominal_current": 395,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 212,
+      "equipment_key": "CDP-0410-PPPS",
+      "name": "MB LUBRICACIÓN HIDRAPULPER NO. 4",
+      "area": "Central de pastas",
+      "nominal_current": 2.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 213,
+      "equipment_key": "CDP-0420-PPPSC",
+      "name": "M. TRANSMISIÓN HIDRAPULPER No.4",
+      "area": "Central de pastas",
+      "nominal_current": 328,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 214,
+      "equipment_key": "CDP-0430-PPPS",
+      "name": "MB DESCARGA HIDRAPULPER NO. 4",
+      "area": "Central de pastas",
+      "nominal_current": 85.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 215,
+      "equipment_key": "CDP-0440-PPPS",
+      "name": "MB CONTAMINEX SIST.LIMP.HIDRAS 3y4",
+      "area": "Central de pastas",
+      "nominal_current": 150,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 216,
+      "equipment_key": "CDP-0450-PPPS",
+      "name": "MB ALIM. AGUA ELUTRIACIÓN CARA",
+      "area": "Central de pastas",
+      "nominal_current": 112,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 217,
+      "equipment_key": "CDP-0460-PPPS",
+      "name": "MB CONTROL NIVEL AGUA CLARA ESPESADOR M368",
+      "area": "Central de pastas",
+      "nominal_current": 86.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 218,
+      "equipment_key": "CDP-0470-PPPS",
+      "name": "MB ALIM. LIMP. SECUNDARIOS HW SISTEMA CARA M371",
+      "area": "Central de pastas",
+      "nominal_current": 147,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 219,
+      "equipment_key": "CDP-0480-PPPS",
+      "name": "MB ALIM. LIMP. PRIMARIOS HW SIST. CARA M314",
+      "area": "Central de pastas",
+      "nominal_current": 217,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 220,
+      "equipment_key": "CDP-0490-PPPS",
+      "name": "M. CORTADOR DE TRENZA DE HIDRAPULPER NO. 2",
+      "area": "Central de pastas",
+      "nominal_current": 18,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 221,
+      "equipment_key": "CDP-0500-PPPS",
+      "name": "MB DESCARGA HIDRAPULPER NO. 2",
+      "area": "Central de pastas",
+      "nominal_current": 145,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 222,
+      "equipment_key": "CDP-0510-PPPS",
+      "name": "M. VENT. SIST. HIDRAULICO HIDRAPULPER NO.2",
+      "area": "Central de pastas",
+      "nominal_current": 0.65,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 223,
+      "equipment_key": "CDP-0520-PPPSC",
+      "name": "M. TRANSMISIÓN HIDRAPULPER No.2",
+      "area": "Central de pastas",
+      "nominal_current": 137,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 224,
+      "equipment_key": "CDP-0525-PPPSC",
+      "name": "M. AGIT. TQ. PASTA ESP. REV. M2",
+      "area": "Central de pastas",
+      "nominal_current": 54,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 225,
+      "equipment_key": "CDP-0540-PPPS",
+      "name": "MB RECIRC. PASTA ESP. SIST. REV. M1",
+      "area": "Central de pastas",
+      "nominal_current": 60.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 226,
+      "equipment_key": "CDP-0543-PPPSC",
+      "name": "MB PRINC. TQ. PASTA ESP. REV. M2",
+      "area": "Central de pastas",
+      "nominal_current": 112,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 227,
+      "equipment_key": "CDP-0545-PPPSC",
+      "name": "MB PRINC. TQ. PASTA ESP. REV. M3",
+      "area": "Central de pastas",
+      "nominal_current": 165,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 228,
+      "equipment_key": "CDP-0547-PPPSC",
+      "name": "MB AUX. TQ. PASTA ESP. REV. M2-M3",
+      "area": "Central de pastas",
+      "nominal_current": 175,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 229,
+      "equipment_key": "CDP-0550-PPPS",
+      "name": "MB A TQ.PASTA ESP. SIST. CARA M3",
+      "area": "Central de pastas",
+      "nominal_current": null,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 230,
+      "equipment_key": "CDP-0555-PPPSC",
+      "name": "M. AGIT. TQ. PASTA ESP. REV. M3",
+      "area": "Central de pastas",
+      "nominal_current": 67,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 231,
+      "equipment_key": "CDP-0560-PPPS",
+      "name": "MB ALIM. LIMP. PRIMARIOS LW REV.",
+      "area": "Central de pastas",
+      "nominal_current": 222,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 232,
+      "equipment_key": "CDP-0570-PPPSC",
+      "name": "MB ALIM. PASTA(CEBO) FILTRO SAVE ALL",
+      "area": "Central de pastas",
+      "nominal_current": 14,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 233,
+      "equipment_key": "CDP-0580-PPPS",
+      "name": "M. AGIT. TQ.RECH.CRIBA FINA PRIM. REV.",
+      "area": "Central de pastas",
+      "nominal_current": 55,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 234,
+      "equipment_key": "CDP-0590-PPPS",
+      "name": "MB DESCARGA BELL PURGE HIDRAPULPER NO. 2",
+      "area": "Central de pastas",
+      "nominal_current": 24.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 235,
+      "equipment_key": "CDP-0600-PPPS",
+      "name": "M. BELL PURGE HIDRAPULPER NO.2",
+      "area": "Central de pastas",
+      "nominal_current": 160,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 236,
+      "equipment_key": "CDP-0610-PPPS",
+      "name": "MB ALIM. AGUA DE SELLOS CARA",
+      "area": "Central de pastas",
+      "nominal_current": 13,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 237,
+      "equipment_key": "CDP-0620-PPPS",
+      "name": "MB AGUA SELLOS  CRIB.GRUESO REV.",
+      "area": "Central de pastas",
+      "nominal_current": 11.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 238,
+      "equipment_key": "CDP-0630-PPPSC",
+      "name": "MB AGUA SELLOS FILTRO SAVE ALL",
+      "area": "Central de pastas",
+      "nominal_current": 18,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 239,
+      "equipment_key": "CDP-0640-PPPS",
+      "name": "MB ALIM. AGUA DE SELLOS A REFINADORES",
+      "area": "Central de pastas",
+      "nominal_current": 6.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 240,
+      "equipment_key": "CDP-0650-PPPSC",
+      "name": "MB ALIM. CRIBA FINA TERCIARIA REV.",
+      "area": "Central de pastas",
+      "nominal_current": 68,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 241,
+      "equipment_key": "CDP-0660-PPPS",
+      "name": "M. AGIT. TQ.RECH. CRIBAFINASEC.REV.",
+      "area": "Central de pastas",
+      "nominal_current": 46,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 242,
+      "equipment_key": "CDP-0670-PPPS",
+      "name": "MB DESCARGA  BELL-PURGE HIDRA.1",
+      "area": "Central de pastas",
+      "nominal_current": 61.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 243,
+      "equipment_key": "CDP-0680-PPPS",
+      "name": "M. BELL-PURGE HIDRA 1",
+      "area": "Central de pastas",
+      "nominal_current": 143,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 244,
+      "equipment_key": "CDP-0690-PPPSC",
+      "name": "MB ALIM. CRIBA FINA SECUNDARIA REV.",
+      "area": "Central de pastas",
+      "nominal_current": 233,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 245,
+      "equipment_key": "CDP-0700-PPPSC",
+      "name": "MB ALIM. CRIBA FINA PRIMARIA REV.",
+      "area": "Central de pastas",
+      "nominal_current": 170,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 246,
+      "equipment_key": "CDP-0710-PPPS",
+      "name": "M. AGIT.  'TANQUE CENTRAL No.1'",
+      "area": "Central de pastas",
+      "nominal_current": 67,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 247,
+      "equipment_key": "CDP-0720-PPPS",
+      "name": "M. VENT. ENFRIAMIENTO DE ACEITE DEL HIDRA 1",
+      "area": "Central de pastas",
+      "nominal_current": 0.06,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 248,
+      "equipment_key": "CDP-0730-PPPS",
+      "name": "MB DESCARGA  HIDRAPULPER NO. 1",
+      "area": "Central de pastas",
+      "nominal_current": 319,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 249,
+      "equipment_key": "CDP-0740-PPPSC",
+      "name": "M. TRANSMISIÓN HIDRAPULPER No.1",
+      "area": "Central de pastas",
+      "nominal_current": 137,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 250,
+      "equipment_key": "CDP-0750-PPPS",
+      "name": "MB AGUA CONSIST.  CRIB.FINO REV.",
+      "area": "Central de pastas",
+      "nominal_current": 59,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 251,
+      "equipment_key": "CDP-0760-PPPS",
+      "name": "MB ALIM. DAF TAURO 8.2 PRINCIPAL",
+      "area": "Central de pastas",
+      "nominal_current": 85.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 252,
+      "equipment_key": "CDP-0770-PPPS",
+      "name": "MB ALIM. DAF TAURO 8.2 AUXILIAR",
+      "area": "Central de pastas",
+      "nominal_current": 82.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 253,
+      "equipment_key": "CDP-0780-PPPS",
+      "name": "MB No.2 A HIDRAPULPERS",
+      "area": "Central de pastas",
+      "nominal_current": 112,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 254,
+      "equipment_key": "CDP-0790-PPPS",
+      "name": "MB No.1 A HIDRAPULPERS",
+      "area": "Central de pastas",
+      "nominal_current": 112,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 255,
+      "equipment_key": "CDP-0800-PPPS",
+      "name": "MB AGUA DILUC. CRIB.GRUESO REV.",
+      "area": "Central de pastas",
+      "nominal_current": 147,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 256,
+      "equipment_key": "CDP-0810-PPPS",
+      "name": "MB No.3 DRENAJE",
+      "area": "Central de pastas",
+      "nominal_current": 143,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 257,
+      "equipment_key": "CDP-0820-PPPS",
+      "name": "MB No.2 DRENAJE",
+      "area": "Central de pastas",
+      "nominal_current": 145,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 258,
+      "equipment_key": "CDP-0830-PPPS",
+      "name": "MB No.1 DRENAJE",
+      "area": "Central de pastas",
+      "nominal_current": 117,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 259,
+      "equipment_key": "CDP-0840-PPPS",
+      "name": "MB CÁRCAMO BBAS. DRENAJE 1-2-3",
+      "area": "Central de pastas",
+      "nominal_current": 7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 260,
+      "equipment_key": "CDP-0850-PPPS",
+      "name": "MB PRINC. ALIM. CRIBA GRUESA PRIM. REV.",
+      "area": "Central de pastas",
+      "nominal_current": 223,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 261,
+      "equipment_key": "CDP-0860-PPPS",
+      "name": "M. AGIT. TQ. ALIM. CRIBA GRUESA PRIM. REV.",
+      "area": "Central de pastas",
+      "nominal_current": 61.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 262,
+      "equipment_key": "CDP-0870-PPPS",
+      "name": "MB AUX. ALIM. CRIBA GRUESA PRIM. REV.",
+      "area": "Central de pastas",
+      "nominal_current": 234,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 263,
+      "equipment_key": "CDP-0880-PPPSC",
+      "name": "MB ALIM. A FILTRO SAVE ALL",
+      "area": "Central de pastas",
+      "nominal_current": 153,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 264,
+      "equipment_key": "CDP-0890-PPPS",
+      "name": "MB ALIM. HIDRAPULPERS 1 y 2",
+      "area": "Central de pastas",
+      "nominal_current": 169,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 265,
+      "equipment_key": "CDP-0900-PPPS",
+      "name": "M. SIST.HIDRAÚLICO CORTADORA TRENZA HIDRA.1",
+      "area": "Central de pastas",
+      "nominal_current": 19.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 266,
+      "equipment_key": "CDP-0910-PPPSC",
+      "name": "MB AGUA CLARA FILTRO SAVE ALL",
+      "area": "Central de pastas",
+      "nominal_current": 112,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 267,
+      "equipment_key": "CDP-0920-PPPSC",
+      "name": "MB AGUA A REGADERAS FILTRO SAVE ALL",
+      "area": "Central de pastas",
+      "nominal_current": 110,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 268,
+      "equipment_key": "CDP-0930-PPPS",
+      "name": "MB AGUA RET FILTRO ELEPHANT",
+      "area": "Central de pastas",
+      "nominal_current": 12,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 269,
+      "equipment_key": "CDP-0940-PPPS",
+      "name": "MB ALIM. CRIBA GRUESA SECUND.REV.",
+      "area": "Central de pastas",
+      "nominal_current": 112,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 270,
+      "equipment_key": "CDP-0950-PPPS",
+      "name": "MB ALIM.AGUA A REGADS. ESP. F.CORTA S.REV.",
+      "area": "Central de pastas",
+      "nominal_current": 119,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 271,
+      "equipment_key": "CDP-0960-PPPSC",
+      "name": "MB AGUA TURBIA FILTRO SAVE ALL",
+      "area": "Central de pastas",
+      "nominal_current": 66,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 272,
+      "equipment_key": "CDP-0970-PPPS",
+      "name": "MB ALIM. LIMP. SECUNDARIOS HW REV.",
+      "area": "Central de pastas",
+      "nominal_current": 71.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 273,
+      "equipment_key": "CDP-0980-PPPS",
+      "name": "MB ALIM. LIMP. SECUNDARIOS LW REV.",
+      "area": "Central de pastas",
+      "nominal_current": 46,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 274,
+      "equipment_key": "CDP-0990-PPTA",
+      "name": "M. COMPRESOR  SIST.TAURO",
+      "area": "Central de pastas",
+      "nominal_current": 18.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 275,
+      "equipment_key": "CDP-1000-PPTA",
+      "name": "MB BOOSTER  SIST.TAURO",
+      "area": "Central de pastas",
+      "nominal_current": 112,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 276,
+      "equipment_key": "CDP-1010-PPTA",
+      "name": "M. No.1 PALETAS LODOS  SIST.TAURO",
+      "area": "Central de pastas",
+      "nominal_current": 0.92,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 277,
+      "equipment_key": "CDP-1020-PPTA",
+      "name": "M. No.2 PALETAS LODOS  SIST.TAURO",
+      "area": "Central de pastas",
+      "nominal_current": 0.92,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 278,
+      "equipment_key": "CDP-1030-PPTA",
+      "name": "M. No.1 MOVIMIENTO LODOS  SIST.TAURO",
+      "area": "Central de pastas",
+      "nominal_current": 0.92,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 279,
+      "equipment_key": "CDP-1040-PPTA",
+      "name": "M. No.2 MOVIMIENTO LODOS  SIST.TAURO",
+      "area": "Central de pastas",
+      "nominal_current": 0.92,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 280,
+      "equipment_key": "CDP-1045-PPTA",
+      "name": "MB AGUA SELLOS BOMBAS VACÍO M2",
+      "area": "Central de pastas",
+      "nominal_current": 48,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 281,
+      "equipment_key": "CDP-1060-PPTAC",
+      "name": "MB PRINC. AGUA CLARIFICADA",
+      "area": "Central de pastas",
+      "nominal_current": 71.7,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 282,
+      "equipment_key": "CDP-1070-PPTAC",
+      "name": "MB AUX.  AGUA CLARIFICADA",
+      "area": "Central de pastas",
+      "nominal_current": 68,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 283,
+      "equipment_key": "CDP-1080-PPTAC",
+      "name": "MB PRINC. MEDIANA PRESIÓN AGUA CLARIFICADA",
+      "area": "Central de pastas",
+      "nominal_current": 222,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 284,
+      "equipment_key": "CDP-1090-PPTA",
+      "name": "MB LAMINADORA DE LODOS",
+      "area": "Central de pastas",
+      "nominal_current": 12.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 285,
+      "equipment_key": "CDP-1100-PPTA",
+      "name": "M. AGIT. TANQUE LODOS LAMINADORA",
+      "area": "Central de pastas",
+      "nominal_current": 38,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 286,
+      "equipment_key": "CDP-1110-PPTA",
+      "name": "M. VENT. TORRE ENFRIAMIENTO",
+      "area": "Central de pastas",
+      "nominal_current": 26.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 287,
+      "equipment_key": "CDP-1130-PPTA",
+      "name": "M. TELA LAMINADORA LODOS",
+      "area": "Central de pastas",
+      "nominal_current": 4.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 288,
+      "equipment_key": "CDP-1140-PPTA",
+      "name": "M. LONA INFERIOR LAMINADORA LODOS",
+      "area": "Central de pastas",
+      "nominal_current": 4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 289,
+      "equipment_key": "CDP-1150-PPTA",
+      "name": "M. LONA SUPERIOR LAMINADORA LODOS",
+      "area": "Central de pastas",
+      "nominal_current": 5.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 290,
+      "equipment_key": "CDP-1160-PPTA",
+      "name": "M. VENTILADOR  MOT.LONA SUP. LAMIN.",
+      "area": "Central de pastas",
+      "nominal_current": 0.18,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 291,
+      "equipment_key": "CDP-1170-PPPO",
+      "name": "M. CRIBA GRUESA PRIMARIA  REVERSO",
+      "area": "Central de pastas",
+      "nominal_current": 118,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 292,
+      "equipment_key": "CDP-1180-PPPO",
+      "name": "M. CRIBA GRUESA SECUNDARIA  REVERSO",
+      "area": "Central de pastas",
+      "nominal_current": 87.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 293,
+      "equipment_key": "CDP-1190-PPPO",
+      "name": "M. BELCOR  MOLINO 1",
+      "area": "Central de pastas",
+      "nominal_current": 107,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 294,
+      "equipment_key": "CDP-1200-PPPO",
+      "name": "M. RAGGER  MOLINO 1",
+      "area": "Central de pastas",
+      "nominal_current": 4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 295,
+      "equipment_key": "CDP-1210-PPPO",
+      "name": "M. CARRO  POLIPASTO MOLINO 1",
+      "area": "Central de pastas",
+      "nominal_current": 0.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 296,
+      "equipment_key": "CDP-1220-PPPO",
+      "name": "M. GANCHO  POLIPASTO MOLINO 1",
+      "area": "Central de pastas",
+      "nominal_current": 5.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 297,
+      "equipment_key": "CDP-1230-PPPO",
+      "name": "M. TROMMEL  HIDRA.1",
+      "area": "Central de pastas",
+      "nominal_current": 3.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 298,
+      "equipment_key": "CDP-1235-PPPO",
+      "name": "M. ZARANDA RECH. CRIBA FIN SEC. REV.",
+      "area": "Central de pastas",
+      "nominal_current": 12.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 299,
+      "equipment_key": "CDP-1240-PPPO",
+      "name": "M. ZARANDA  HIDRA.1",
+      "area": "Central de pastas",
+      "nominal_current": 12.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 300,
+      "equipment_key": "CDP-1250-PPPO",
+      "name": "M. TRANSPORTADOR  HIDRAPULPER No.1",
+      "area": "Central de pastas",
+      "nominal_current": 6.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 301,
+      "equipment_key": "CDP-1260-PPPO",
+      "name": "M. DEPURADOR No.1  BOMBAS DRENAJE",
+      "area": "Central de pastas",
+      "nominal_current": 37,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 302,
+      "equipment_key": "CDP-1270-PPPO",
+      "name": "M. DEPURADOR No.2  BOMBAS DRENAJE",
+      "area": "Central de pastas",
+      "nominal_current": 38,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 303,
+      "equipment_key": "CDP-1280-PPPO",
+      "name": "M. ZARANDA BOMBAS DRENAJE",
+      "area": "Central de pastas",
+      "nominal_current": 6.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 304,
+      "equipment_key": "CDP-1290-PPPO",
+      "name": "MB RECHAZOS SISTEMA REVERSO",
+      "area": "Central de pastas",
+      "nominal_current": 5.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 305,
+      "equipment_key": "CDP-1300-PPPO",
+      "name": "M. CRIBA GRUESA TERCIARIA  REVERSO",
+      "area": "Central de pastas",
+      "nominal_current": 169,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 306,
+      "equipment_key": "CDP-1310-PPPO",
+      "name": "M. REJECT SORTER  SIST.RECH.CRIB.CARA",
+      "area": "Central de pastas",
+      "nominal_current": 87.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 307,
+      "equipment_key": "CDP-1320-PPPOC",
+      "name": "M. REPULPADOR FILTRO SAVE ALL",
+      "area": "Central de pastas",
+      "nominal_current": 12.6,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 308,
+      "equipment_key": "CDP-1330-PPPOC",
+      "name": "M. REDUCTOR REGADERA FILTRO SAVE ALL",
+      "area": "Central de pastas",
+      "nominal_current": 0.92,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 309,
+      "equipment_key": "CDP-1340-PPPOC",
+      "name": "M. TRANSMISIÓN FILTRO SAVE ALL",
+      "area": "Central de pastas",
+      "nominal_current": 14.1,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 310,
+      "equipment_key": "CDP-1350-PPSE",
+      "name": "M. VENTILADOR 1  TRANSF.CTO.'A' S.E. P.P.",
+      "area": "Central de pastas",
+      "nominal_current": 0.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 311,
+      "equipment_key": "CDP-1360-PPSE",
+      "name": "M. VENTILADOR 2  TRANSF.CTO.'A' S.E. P.P.",
+      "area": "Central de pastas",
+      "nominal_current": 1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 312,
+      "equipment_key": "CDP-1370-PPSE",
+      "name": "M. VENTILADOR 3  TRANSF.CTO.'A' S.E. P.P.",
+      "area": "Central de pastas",
+      "nominal_current": 0.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 313,
+      "equipment_key": "CDP-1380-PPSE",
+      "name": "M. VENTILADOR 1  TRANSF.CTO.'B' S.E. P.P.",
+      "area": "Central de pastas",
+      "nominal_current": 0.503,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 314,
+      "equipment_key": "CDP-1390-PPSE",
+      "name": "M. VENTILADOR 2  TRANSF.CTO.'B' S.E. P.P.",
+      "area": "Central de pastas",
+      "nominal_current": 0.503,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 315,
+      "equipment_key": "CDP-1400-PPSE",
+      "name": "M. VENTILADOR 3  TRANSF.CTO.'B' S.E. P.P.",
+      "area": "Central de pastas",
+      "nominal_current": 0.503,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 316,
+      "equipment_key": "CDP-1403-PPAZ",
+      "name": "M. AIRE LAVADO SE PP M3",
+      "area": "Central de pastas",
+      "nominal_current": 11.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 317,
+      "equipment_key": "CDP-1410-PPPO",
+      "name": "M. PRENSA ECOMPAX  SIST.RECH.CRIB.CARA",
+      "area": "Central de pastas",
+      "nominal_current": 20,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 318,
+      "equipment_key": "CDP-1420-PPPO",
+      "name": "M. MINI PRENSA  SIST.RECH.CRIB.CARA",
+      "area": "Central de pastas",
+      "nominal_current": 2.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 319,
+      "equipment_key": "CDP-1430-PPPO",
+      "name": "M. TRANSM. FILTRO ELEPHANT",
+      "area": "Central de pastas",
+      "nominal_current": 60,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 320,
+      "equipment_key": "CDP-1440-PPPO",
+      "name": "M. VENT. M.TRANSM. FILTRO ELEPHANT",
+      "area": "Central de pastas",
+      "nominal_current": 0.18,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 321,
+      "equipment_key": "CDP-1450-PPPO",
+      "name": "M. OSCILADOR REGAD.F.ELEPHANT  S.RECH.CRIB.CARA",
+      "area": "Central de pastas",
+      "nominal_current": 1.31,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 322,
+      "equipment_key": "CDP-1462-PPPOC",
+      "name": "M. REFINADOR No.8 -SIST. REVERSO M3",
+      "area": "Central de pastas",
+      "nominal_current": 253,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 323,
+      "equipment_key": "CDP-1463-PPPO",
+      "name": "M. PLATINAS REFINADOR NO.8",
+      "area": "Central de pastas",
+      "nominal_current": 1.45,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 324,
+      "equipment_key": "CDP-1464-PPPOC",
+      "name": "M. REFINADOR No.7 -SIST. REVERSO M3",
+      "area": "Central de pastas",
+      "nominal_current": 253,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 325,
+      "equipment_key": "CDP-1465-PPPO",
+      "name": "M. PLATINAS REFINADOR NO.7",
+      "area": "Central de pastas",
+      "nominal_current": 1.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 326,
+      "equipment_key": "CDP-1470-PPPOC",
+      "name": "M. CRIBA FINA PRIMARIA SIST.REVERSO",
+      "area": "Central de pastas",
+      "nominal_current": 341,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 327,
+      "equipment_key": "CDP-1480-PPPOC",
+      "name": "M. CRIBA FINA SECUNDARIA SIST.REVERSO",
+      "area": "Central de pastas",
+      "nominal_current": 347,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 328,
+      "equipment_key": "CDP-1490-PPPOC",
+      "name": "M. CRIBA FINA TERCIARIA SIST.REVERSO",
+      "area": "Central de pastas",
+      "nominal_current": 124,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 329,
+      "equipment_key": "CDP-1500-PPPO",
+      "name": "M. ESPESADOR TORNILLOS  No.1",
+      "area": "Central de pastas",
+      "nominal_current": 30.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 330,
+      "equipment_key": "CDP-1510-PPPO",
+      "name": "M. ESPESADOR TORNILLOS  No.2",
+      "area": "Central de pastas",
+      "nominal_current": 29.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 331,
+      "equipment_key": "CDP-1520-PPPO",
+      "name": "M. ESPESADOR TORNILLOS  No.3",
+      "area": "Central de pastas",
+      "nominal_current": 29.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 332,
+      "equipment_key": "CDP-1530-PPPO",
+      "name": "M. SOPLADOR 2  ESPESADOR F.CORTA S.REV.",
+      "area": "Central de pastas",
+      "nominal_current": 2.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 333,
+      "equipment_key": "CDP-1532-PPPO",
+      "name": "M. ESPESADOR FIBRA CORTA SIST. REV.",
+      "area": "Central de pastas",
+      "nominal_current": 20,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 334,
+      "equipment_key": "CDP-1534-PPPO",
+      "name": "M. VENT. M. ESP. FIBRA CORTA REV.",
+      "area": "Central de pastas",
+      "nominal_current": 0.62,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 335,
+      "equipment_key": "CDP-1536-PPPO",
+      "name": "M. SOPLADOR 1  ESPESADOR F.CORTA S.REV.",
+      "area": "Central de pastas",
+      "nominal_current": 2.69,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 336,
+      "equipment_key": "CDP-1540-PPPOC",
+      "name": "M. REFINADOR No.2 -SIST.CARA M2",
+      "area": "Central de pastas",
+      "nominal_current": 194,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 337,
+      "equipment_key": "CDP-1542-PPPO",
+      "name": "M. PLATINAS REFINADOR NO.2",
+      "area": "Central de pastas",
+      "nominal_current": 1.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 338,
+      "equipment_key": "CDP-1545-PPPOC",
+      "name": "M. REFINADOR No.3 -SIST. REVERSO M2",
+      "area": "Central de pastas",
+      "nominal_current": 177,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 339,
+      "equipment_key": "CDP-1547-PPPO",
+      "name": "M. PLATINAS REFINADOR NO.3",
+      "area": "Central de pastas",
+      "nominal_current": 1.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 340,
+      "equipment_key": "CDP-1550-PPPOC",
+      "name": "M. REFINADOR No.4 -SIST. REVERSO M2",
+      "area": "Central de pastas",
+      "nominal_current": 177,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 341,
+      "equipment_key": "CDP-1552-PPPO",
+      "name": "M. PLATINAS REFINADOR NO.4",
+      "area": "Central de pastas",
+      "nominal_current": 2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 342,
+      "equipment_key": "CDP-1555-PPPOC",
+      "name": "M. REFINADOR No.1 -SIST.CARA M2",
+      "area": "Central de pastas",
+      "nominal_current": 192,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 343,
+      "equipment_key": "CDP-1557-PPPO",
+      "name": "M. PLATINAS REFINADOR NO.1",
+      "area": "Central de pastas",
+      "nominal_current": 1.75,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 344,
+      "equipment_key": "CDP-1560-PPPOC",
+      "name": "M. REFINADOR No.6  -SIST.CARA M3",
+      "area": "Central de pastas",
+      "nominal_current": 170,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 345,
+      "equipment_key": "CDP-1565-PPPO",
+      "name": "M. PLATINAS REFINADOR NO.6",
+      "area": "Central de pastas",
+      "nominal_current": 1.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 346,
+      "equipment_key": "CDP-1570-PPPOC",
+      "name": "M. REFINADOR No.5 -SIST.CARA M3",
+      "area": "Central de pastas",
+      "nominal_current": 170,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 347,
+      "equipment_key": "CDP-1575-PPPO",
+      "name": "M. PLATINAS REFINADOR NO.5",
+      "area": "Central de pastas",
+      "nominal_current": 1.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 348,
+      "equipment_key": "CDP-1590-PPPO",
+      "name": "M. VENT. HIDRAPULPER NO. 2",
+      "area": "Central de pastas",
+      "nominal_current": 9.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 349,
+      "equipment_key": "CDP-1600-PPPO",
+      "name": "M. SEPARPLAST No. 2",
+      "area": "Central de pastas",
+      "nominal_current": 96,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 350,
+      "equipment_key": "CDP-1610-PPPO",
+      "name": "M. GUSANO SEPARPLAST NO. 2",
+      "area": "Central de pastas",
+      "nominal_current": 3.84,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 351,
+      "equipment_key": "CDP-1620-PPPO",
+      "name": "M. TROMMEL HIDRAPULPER NO. 2",
+      "area": "Central de pastas",
+      "nominal_current": 4.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 352,
+      "equipment_key": "CDP-1630-PPPO",
+      "name": "M. TRANSPORTADOR HIDRAPULPER NO. 2",
+      "area": "Central de pastas",
+      "nominal_current": 15,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 353,
+      "equipment_key": "CDP-1640-PPPO",
+      "name": "M. GANCHO POLIPASTO HIDRAPULPER NO. 2",
+      "area": "Central de pastas",
+      "nominal_current": 5.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 354,
+      "equipment_key": "CDP-1650-PPPO",
+      "name": "M. CARRO POLIPASTO HIDRAPULPER NO. 2",
+      "area": "Central de pastas",
+      "nominal_current": 0.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 355,
+      "equipment_key": "CDP-1660-PPPO",
+      "name": "M. RAGGER HIDRAPULPER NO. 2",
+      "area": "Central de pastas",
+      "nominal_current": 1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 356,
+      "equipment_key": "CDP-1700-PPPO",
+      "name": "M. BELCOR DEL HIDRAPULPER NO. 2",
+      "area": "Central de pastas",
+      "nominal_current": 283,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 357,
+      "equipment_key": "CDP-1710-PPPO",
+      "name": "M. GANCHO POLIPASTO HIDRAS 3 Y 4",
+      "area": "Central de pastas",
+      "nominal_current": 6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 358,
+      "equipment_key": "CDP-1720-PPPO",
+      "name": "M. CARRO POLIPASTO HIDRAS. NO. 3 Y NO. 4",
+      "area": "Central de pastas",
+      "nominal_current": 1.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 359,
+      "equipment_key": "CDP-1730-PPPO",
+      "name": "M. UHIDR.CORT.TRENZA SIST.LIMP.HIDR.3Y4",
+      "area": "Central de pastas",
+      "nominal_current": 17.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 360,
+      "equipment_key": "CDP-1740-PPPO",
+      "name": "M. JALA TRENZA SIST.LIMP.HIDR.3Y4",
+      "area": "Central de pastas",
+      "nominal_current": 5.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 361,
+      "equipment_key": "CDP-1750-PPPO",
+      "name": "M. RAGGER HIDRA3 SIST.LIMP.HIDR.3Y4",
+      "area": "Central de pastas",
+      "nominal_current": 2.35,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 362,
+      "equipment_key": "CDP-1760-PPPO",
+      "name": "M. CARRO GRAPPLE SIST.LIMP.HIDR.3Y4",
+      "area": "Central de pastas",
+      "nominal_current": 1.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 363,
+      "equipment_key": "CDP-1770-PPPO",
+      "name": "M. GANCHO GRAPPLE SIST.LIMP.HIDR.3Y4",
+      "area": "Central de pastas",
+      "nominal_current": 1.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 364,
+      "equipment_key": "CDP-1780-PPPO",
+      "name": "M. UHIDR. GRAPPLE SIST.LIMP.HIDR.3Y4",
+      "area": "Central de pastas",
+      "nominal_current": 4.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 365,
+      "equipment_key": "CDP-1800-PPPO",
+      "name": "M. CRIBA GRUESA PRIMARIA SISTEMA CARA M340",
+      "area": "Central de pastas",
+      "nominal_current": 150,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 366,
+      "equipment_key": "CDP-1810-PPPO",
+      "name": "M. CRIBA GRUESA SECUNDARIA SISTEMA CARA M344",
+      "area": "Central de pastas",
+      "nominal_current": 86.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 367,
+      "equipment_key": "CDP-1820-PPPO",
+      "name": "M. CRIBA GRUESA CUATERNARIA SISTEMA CARA M368",
+      "area": "Central de pastas",
+      "nominal_current": 63,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 368,
+      "equipment_key": "CDP-1830-PPPO",
+      "name": "M. CRIBA FINA TERCIARIA SISTEMA CARA",
+      "area": "Central de pastas",
+      "nominal_current": 73.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 369,
+      "equipment_key": "CDP-1840-PPPO",
+      "name": "M. ESPESADOR SISTEMA CARA M1 Y M2 (METSO)",
+      "area": "Central de pastas",
+      "nominal_current": 18.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 370,
+      "equipment_key": "CDP-1850-PPPO",
+      "name": "M. BELL PURGE SISTEMA CARA M1 Y M2",
+      "area": "Central de pastas",
+      "nominal_current": 144,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 371,
+      "equipment_key": "CDP-1860-PPPO",
+      "name": "M. TROMMEL SISTEMA CARA",
+      "area": "Central de pastas",
+      "nominal_current": 13.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 372,
+      "equipment_key": "CDP-1870-PPPO",
+      "name": "M. CRIBA FINA SECUNDARIA SISTEMA CARA",
+      "area": "Central de pastas",
+      "nominal_current": 143,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 373,
+      "equipment_key": "CDP-1880-PPPO",
+      "name": "M. BELCOR DE HIDRAPULPER No. 5",
+      "area": "Central de pastas",
+      "nominal_current": 174,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 374,
+      "equipment_key": "CDP-1890-PPMP",
+      "name": "MB ALIM. AGUA A ESPESADOR SIST. CARA M326",
+      "area": "Central de pastas",
+      "nominal_current": 110,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 375,
+      "equipment_key": "CDP-1900-PPMP",
+      "name": "MB ALIM. TANQUE PASTA ESPESADA SISTEMA CARA M327B",
+      "area": "Central de pastas",
+      "nominal_current": 68,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 376,
+      "equipment_key": "CDP-1910-PPMP",
+      "name": "M. AGIT. TQ. PASTA RECUPERADA ESPESADOR M327A",
+      "area": "Central de pastas",
+      "nominal_current": 26.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 377,
+      "equipment_key": "CDP-1920-PPMP",
+      "name": "M. DESCARGA TORNILLO ESPESADOR SIST. CARA M325",
+      "area": "Central de pastas",
+      "nominal_current": 18.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 378,
+      "equipment_key": "CDP-1930-PPMP",
+      "name": "M. ESPESADOR SIST. CARA M323",
+      "area": "Central de pastas",
+      "nominal_current": 9.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 379,
+      "equipment_key": "CDP-1940-PPMP",
+      "name": "M. OSCILADOR ESPESADOR SIST. CARA M324",
+      "area": "Central de pastas",
+      "nominal_current": 3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 380,
+      "equipment_key": "CDP-1950-PPPO",
+      "name": "M. CARRO DE POLIPASTO HIDRA NO. 5",
+      "area": "Central de pastas",
+      "nominal_current": 1.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 381,
+      "equipment_key": "CDP-1960-PPPO",
+      "name": "M. GANCHO POLIPASTO HIDRA NO. 5",
+      "area": "Central de pastas",
+      "nominal_current": null,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 382,
+      "equipment_key": "CDP-1970-PPPO",
+      "name": "M. CRIBA FINA PRIMARIA CARA M320",
+      "area": "Central de pastas",
+      "nominal_current": 227,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 383,
+      "equipment_key": "CDP-1980-PPPO",
+      "name": "MB AGUA CLARIFICADA DAF TAURO 4.1 M360",
+      "area": "Central de pastas",
+      "nominal_current": 17.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 384,
+      "equipment_key": "CDP-1990-PPPO",
+      "name": "MB ALIM. UDS TAURO SIST. RECH. M361",
+      "area": "Central de pastas",
+      "nominal_current": 22,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 385,
+      "equipment_key": "CDP-2000-PPPO",
+      "name": "M. 01 DAF TAURO SIST. RECH. M351 SP",
+      "area": "Central de pastas",
+      "nominal_current": 0.92,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 386,
+      "equipment_key": "CDP-2010-PPPO",
+      "name": "M. 02 DAF TAURO 4.1 SIST. RECH. M351F",
+      "area": "Central de pastas",
+      "nominal_current": 0.92,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 387,
+      "equipment_key": "CDP-2080-CPQ",
+      "name": "MB PROCESO CATIÓNICO BP-AC-02",
+      "area": "Central de pastas",
+      "nominal_current": 9.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 388,
+      "equipment_key": "CDP-2090-CPQ",
+      "name": "MB PROCESO CATIÓNICO BP-AC-01",
+      "area": "Central de pastas",
+      "nominal_current": 9.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 389,
+      "equipment_key": "CDP-2100-CPQ",
+      "name": "M. AGIT. TQ. ALMACENA. CATIÓNICO AG-202",
+      "area": "Central de pastas",
+      "nominal_current": 11.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 390,
+      "equipment_key": "CDP-2110-CPQ",
+      "name": "M. AGIT. TQ. ALMACEN. OXIDADO AG-102",
+      "area": "Central de pastas",
+      "nominal_current": 11.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 391,
+      "equipment_key": "CDP-2120-CPQ",
+      "name": "MB PROCESO OXIDADO BP-AO-02",
+      "area": "Central de pastas",
+      "nominal_current": 3.91,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 392,
+      "equipment_key": "CDP-2130-CPQ",
+      "name": "MB TRANSFERENCIA OXI. BA-AO-01",
+      "area": "Central de pastas",
+      "nominal_current": 1.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 393,
+      "equipment_key": "CDP-2140-CPQ",
+      "name": "MB PROCESO OXIDADO BP-AO-01",
+      "area": "Central de pastas",
+      "nominal_current": 4.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 394,
+      "equipment_key": "CDP-2150-CPQ",
+      "name": "MB TRANSFERENCIA OXI. BA-AO-02",
+      "area": "Central de pastas",
+      "nominal_current": 1.45,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 395,
+      "equipment_key": "CDP-2160-CPQ",
+      "name": "M. AGIT. TQ. PREPARACIÓN CATIO. AG-201",
+      "area": "Central de pastas",
+      "nominal_current": 6.12,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 396,
+      "equipment_key": "CDP-2170-CPQ",
+      "name": "M. AGIT. TQ. PREPARACIÓN OXI.  AG-101",
+      "area": "Central de pastas",
+      "nominal_current": 6.12,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 397,
+      "equipment_key": "MP2-0010-SSPS",
+      "name": "M.VENT.UD. ENFRIAMIENTO SISTEMA HIDRAULICO PRENSAS",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 398,
+      "equipment_key": "MP2-0020-SSPS",
+      "name": "M.VENT.UD.ENFRIAMIENTO SISTEM BI-NIP Y PRENSA DE ZAPATA",
+      "area": "Máquina no. 2",
+      "nominal_current": 9.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 399,
+      "equipment_key": "MP2-0030-SSPS",
+      "name": "M. ZARANDA ALMIDON SISTEMA REVERSO",
+      "area": "Máquina no. 2",
+      "nominal_current": null,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 400,
+      "equipment_key": "MP2-0040-SSPS",
+      "name": "M. FILTRO GAW SISTEMA REVERSO",
+      "area": "Máquina no. 2",
+      "nominal_current": null,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 401,
+      "equipment_key": "MP2-0050-SSPS",
+      "name": "M. AGIT.TQ. ALMIDON SISTEMA REVERSO",
+      "area": "Máquina no. 2",
+      "nominal_current": 4.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 402,
+      "equipment_key": "MP2-0060-SSPS",
+      "name": "MB ALMIDON SISTEMA REVERSO",
+      "area": "Máquina no. 2",
+      "nominal_current": 31,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 403,
+      "equipment_key": "MP2-0070-SSPS",
+      "name": "MB ALMIDON SISTEMA AUXILIAR",
+      "area": "Máquina no. 2",
+      "nominal_current": 31,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 404,
+      "equipment_key": "MP2-0080-SSPS",
+      "name": "MB ALMIDON SISTEMA CARA",
+      "area": "Máquina no. 2",
+      "nominal_current": 31,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 405,
+      "equipment_key": "MP2-0090-SSPS",
+      "name": "M. AGIT.TQ. ALMIDON SISTEMA CARA",
+      "area": "Máquina no. 2",
+      "nominal_current": null,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 406,
+      "equipment_key": "MP2-0100-SSPS",
+      "name": "M. FILTRO GAW SISTEMA CARA",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.95,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 407,
+      "equipment_key": "MP2-0110-SSPS",
+      "name": "M. EXTRACTOR DE LA TIRA EMBOBINADORA",
+      "area": "Máquina no. 2",
+      "nominal_current": 49,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 408,
+      "equipment_key": "MP2-0140-SSPS",
+      "name": "MB NO. 1 SISTEMA HIDRÁULICO EMBOBINADORA",
+      "area": "Máquina no. 2",
+      "nominal_current": 36,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 409,
+      "equipment_key": "MP2-0150-SSPS",
+      "name": "MB NO. 2 SISTEMA HIDRÁULICO EMBOBINADORA",
+      "area": "Máquina no. 2",
+      "nominal_current": 36,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 410,
+      "equipment_key": "MP2-0170-SSPS",
+      "name": "M. VENTILADOR SISTEMA HIDRÁULICO EMBOBINADORA",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 411,
+      "equipment_key": "MP2-0180-SSPS",
+      "name": "MB RECIRC. ACEITE SISTEMA HIDRÁULICO EMBOBINADORA",
+      "area": "Máquina no. 2",
+      "nominal_current": 4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 412,
+      "equipment_key": "MP2-0190-SSPS",
+      "name": "M. M-38 CUERDA POPE",
+      "area": "Máquina no. 2",
+      "nominal_current": 31,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 413,
+      "equipment_key": "MP2-0200-SSPS",
+      "name": "MB PULPER ENROLLADOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 112,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 414,
+      "equipment_key": "MP2-0210-SSPS",
+      "name": "M. ROTOR PULPER ENROLLADOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 340,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 415,
+      "equipment_key": "MP2-0220-SSPS",
+      "name": "MB RECIRCIRCULACIÓN ENROLLADOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 20,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 416,
+      "equipment_key": "MP2-0230-SSPS",
+      "name": "M. SISTEMA HIDRÁULICO DE LA CALANDRA",
+      "area": "Máquina no. 2",
+      "nominal_current": 14.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 417,
+      "equipment_key": "MP2-0240-SSPS",
+      "name": "MB PRESIÓN NO. 1 GRUPO HIDRÁULICO ENROLLADOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 32.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 418,
+      "equipment_key": "MP2-0250-SSPS",
+      "name": "MB PRESIÓN NO. 2 GRUPO HIDRÁULICO ENROLLADOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 25.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 419,
+      "equipment_key": "MP2-0260-SSPS",
+      "name": "M.VENTILADOR UD ENFRIAMIENTO SIST. HIDRAULICO ENROLLADOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 420,
+      "equipment_key": "MP2-0270-SSPS",
+      "name": "MB UD ENFRIAMIENTO SIST. HIDRAULICO ENROLLADOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 4.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 421,
+      "equipment_key": "MP2-0280-SSPS",
+      "name": "MB NO. 1 SISTEMA REFRIGERACIÓN FILM SIZER",
+      "area": "Máquina no. 2",
+      "nominal_current": 8.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 422,
+      "equipment_key": "MP2-0290-SSPS",
+      "name": "MB NO. 2 SISTEMA REFRIGERACIÓN FILM SIZER",
+      "area": "Máquina no. 2",
+      "nominal_current": 8.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 423,
+      "equipment_key": "MP2-0300-SSPS",
+      "name": "M. VENTILADOR UD ENFRIAMIENTO SIST. HIDRAULICO SECADORES",
+      "area": "Máquina no. 2",
+      "nominal_current": 6.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 424,
+      "equipment_key": "MP2-0310-SSPS",
+      "name": "MB CIRCULACIÓN ACEITE MLU-021 SIST. LUB. P. SECA",
+      "area": "Máquina no. 2",
+      "nominal_current": 12.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 425,
+      "equipment_key": "MP2-0320-SSPS",
+      "name": "MB CIRCULACIÓN ACEITE MLU-020 SIST. LUB. P. SECA",
+      "area": "Máquina no. 2",
+      "nominal_current": 12.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 426,
+      "equipment_key": "MP2-0330-SSPS",
+      "name": "M. VENTILADOR UD ENFRIAMIENTO SIST. HIDRAULICO SEQUERIA",
+      "area": "Máquina no. 2",
+      "nominal_current": 6.49,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 427,
+      "equipment_key": "MP2-0340-SSPS",
+      "name": "MB UD ENFRIAMIENTO SIST. SEQUERIA",
+      "area": "Máquina no. 2",
+      "nominal_current": 9.18,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 428,
+      "equipment_key": "MP2-0350-SSPS",
+      "name": "M. EXTRACTOR VAHOS MLU-22 SIST. LUB. PARTE SECA",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 429,
+      "equipment_key": "MP2-0360-SSPS",
+      "name": "M. M-37 CUERDA FILM SIZER",
+      "area": "Máquina no. 2",
+      "nominal_current": 30,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 430,
+      "equipment_key": "MP2-0390-SHPS",
+      "name": "M. TENSOR CUARTA BATERÍA INFERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 431,
+      "equipment_key": "MP2-0410-SHPS",
+      "name": "MB PRESIÓN NO. 1 GRUPO HIDRÁULICO FILM SIZER",
+      "area": "Máquina no. 2",
+      "nominal_current": 25.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 432,
+      "equipment_key": "MP2-0420-SHPS",
+      "name": "MB PRESIÓN NO. 2 GRUPO HIDRÁULICO FILM SIZER",
+      "area": "Máquina no. 2",
+      "nominal_current": 25.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 433,
+      "equipment_key": "MP2-0430-SHPS",
+      "name": "M. VENTILADOR UD ENFRIAMIENTO SIST. HIDRAULICO FILM SIZER",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 434,
+      "equipment_key": "MP2-0440-SHPS",
+      "name": "MB UD ENFRIAMIENTO SIST. FILM SIZER",
+      "area": "Máquina no. 2",
+      "nominal_current": 3.91,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 435,
+      "equipment_key": "MP2-0450-SHPS",
+      "name": "MB AUX. TQ. NO. 1 EXTRACCIÓN CONDENSADO",
+      "area": "Máquina no. 2",
+      "nominal_current": 6.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 436,
+      "equipment_key": "MP2-0460-SHPS",
+      "name": "MB PRINCIPAL TQ. NO. 1 EXTRACCIÓN CONDENSADO",
+      "area": "Máquina no. 2",
+      "nominal_current": 7.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 437,
+      "equipment_key": "MP2-0470-SHPS",
+      "name": "MB PULPER TFS",
+      "area": "Máquina no. 2",
+      "nominal_current": 112,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 438,
+      "equipment_key": "MP2-0480-SHPS",
+      "name": "M. ROTOR PULPER TFS",
+      "area": "Máquina no. 2",
+      "nominal_current": 340,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 439,
+      "equipment_key": "MP2-0490-SHPS",
+      "name": "M. TENSOR TERCERA BATERÍA INFERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 440,
+      "equipment_key": "MP2-0500-SHPS",
+      "name": "MB AUX. TQ. NO. 3 EXTRACIÓN CONDENSADO",
+      "area": "Máquina no. 2",
+      "nominal_current": 6.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 441,
+      "equipment_key": "MP2-0510-SHPS",
+      "name": "MB PRINCIPAL TQ. NO. 3 EXTRACCIÓN CONDENSADO",
+      "area": "Máquina no. 2",
+      "nominal_current": 6.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 442,
+      "equipment_key": "MP2-0520-SHPS",
+      "name": "MB NO. 1 CIRCUITO PRESIÓN BI-NIP PRENSA ZAPATA",
+      "area": "Máquina no. 2",
+      "nominal_current": 24.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 443,
+      "equipment_key": "MP2-0530-SHPS",
+      "name": "MB NO. 2 CIRCUITO PRESIÓN BI-NIP PRENSA ZAPATA",
+      "area": "Máquina no. 2",
+      "nominal_current": 24.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 444,
+      "equipment_key": "MP2-0540-SHPS",
+      "name": "MB NO. 1 CIRCUITO ALTA PRESIÓN PRENSA ZAPATA",
+      "area": "Máquina no. 2",
+      "nominal_current": 59.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 445,
+      "equipment_key": "MP2-0550-SHPS",
+      "name": "MB NO. 2 CIRCUITO ALTA PRESIÓN PRENSA ZAPATA",
+      "area": "Máquina no. 2",
+      "nominal_current": 59.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 446,
+      "equipment_key": "MP2-0560-SHPS",
+      "name": "M. TENSOR SEGUNDA BATERÍA INFERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 447,
+      "equipment_key": "MP2-0570-SHPS",
+      "name": "MB NO. 2 CTO. LIMP. Y REFRIG. ACEITE PRENSA ZAPATA",
+      "area": "Máquina no. 2",
+      "nominal_current": 36.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 448,
+      "equipment_key": "MP2-0580-SHPS",
+      "name": "MB NO. 1 CTO. LIMP. Y REFRIG. ACEITE PRENSA ZAPATA",
+      "area": "Máquina no. 2",
+      "nominal_current": 36.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 449,
+      "equipment_key": "MP2-0590-SHPS",
+      "name": "M. TENSOR PRIMERA BATERÍA INFERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 450,
+      "equipment_key": "MP2-0600-SHPS",
+      "name": "M. VENT. NO. 1 SIST. INFLADO BLANKET PRENSA ZAPATA",
+      "area": "Máquina no. 2",
+      "nominal_current": 3.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 451,
+      "equipment_key": "MP2-0610-SHPS",
+      "name": "M. VENT. NO. 2 SIST. INFLADO BLANKET PRENSA ZAPATA",
+      "area": "Máquina no. 2",
+      "nominal_current": 3.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 452,
+      "equipment_key": "MP2-0620-SHPS",
+      "name": "MB AUX. TQ. NO. 4 EXTRACCIÓN CONDENSADO",
+      "area": "Máquina no. 2",
+      "nominal_current": 6.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 453,
+      "equipment_key": "MP2-0630-SHPS",
+      "name": "MB PRINCIPAL TQ. NO. 4 EXTRACCIÓN CONDENSADO",
+      "area": "Máquina no. 2",
+      "nominal_current": 6.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 454,
+      "equipment_key": "MP2-0640-SHPS",
+      "name": "MB ACHIQUE SEPARADOR NO. 8 SISTEMA DE VACÍO",
+      "area": "Máquina no. 2",
+      "nominal_current": 12.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 455,
+      "equipment_key": "MP2-0650-SHPS",
+      "name": "M. TENSOR FIELTRO SEGUNDA PRENSA INFERIOR (ZAPATA)",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 456,
+      "equipment_key": "MP2-0660-SHPS",
+      "name": "M. ROTOR PULPER PRENSAS",
+      "area": "Máquina no. 2",
+      "nominal_current": 230,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 457,
+      "equipment_key": "MP2-0670-SHPS",
+      "name": "MB ACHIQUE SEPARADOR NO. 5 SISTEMA DE VACÍO",
+      "area": "Máquina no. 2",
+      "nominal_current": 12.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 458,
+      "equipment_key": "MP2-0680-SHPS",
+      "name": "MB CIRCULACIÓN ACEITE MLU-050 PRENSA ZAPATA",
+      "area": "Máquina no. 2",
+      "nominal_current": 4.01,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 459,
+      "equipment_key": "MP2-0690-SHPS",
+      "name": "MB CIRCULACIÓN ACEITE MLU-051 PRENSA ZAPATA",
+      "area": "Máquina no. 2",
+      "nominal_current": 4.01,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 460,
+      "equipment_key": "MP2-0700-SHPS",
+      "name": "M. TENSOR FIELTRO PRIMERA PRENSA INFERIOR (BI-NIP)",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.52,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 461,
+      "equipment_key": "MP2-0710-SHPS",
+      "name": "MB PULPER PRENSAS",
+      "area": "Máquina no. 2",
+      "nominal_current": 112,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 462,
+      "equipment_key": "MP2-0720-SHPS",
+      "name": "M. OSCILADOR SEGUNDA PRENSA INFERIOR (ZAPATA)",
+      "area": "Máquina no. 2",
+      "nominal_current": 1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 463,
+      "equipment_key": "MP2-0730-SHPS",
+      "name": "M. OSCILADOR PRIMERA PRENSA INFERIOR (BI-NIP)",
+      "area": "Máquina no. 2",
+      "nominal_current": 1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 464,
+      "equipment_key": "MP2-0740-SHPSC",
+      "name": "MB DE VACÍO No.8",
+      "area": "Máquina no. 2",
+      "nominal_current": 105,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 465,
+      "equipment_key": "MP2-0750-SHPS",
+      "name": "MB ACHIQUE SEPARADOR NO. 6 SISTEMA DE VACÍO",
+      "area": "Máquina no. 2",
+      "nominal_current": 12.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 466,
+      "equipment_key": "MP2-0760-SHPS",
+      "name": "MB ACHIQUE SEPARADOR NO. 4 SISTEMA DE VACÍO",
+      "area": "Máquina no. 2",
+      "nominal_current": 12.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 467,
+      "equipment_key": "MP2-0770-SHPS",
+      "name": "MB ACHIQUE SEPARADOR NO. 2 SISTEMA DE VACÍO",
+      "area": "Máquina no. 2",
+      "nominal_current": 12.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 468,
+      "equipment_key": "MP2-0780-SHPSC",
+      "name": "MB DE VACÍO No.2",
+      "area": "Máquina no. 2",
+      "nominal_current": 167,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 469,
+      "equipment_key": "MP2-0782-SHPS",
+      "name": "MB RECIRCULACIÓN DE ACEITE DE BBA. DE VACÍO 2",
+      "area": "Máquina no. 2",
+      "nominal_current": 3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 470,
+      "equipment_key": "MP2-0783-HPS",
+      "name": "M. VENT. DE BBA.REC. ACEITE BBA. VACIO NO. 2",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 471,
+      "equipment_key": "MP2-0790-SHPSC",
+      "name": "MB DE VACÍO No.6",
+      "area": "Máquina no. 2",
+      "nominal_current": 251,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 472,
+      "equipment_key": "MP2-0800-SHPSC",
+      "name": "MB DE VACÍO No.1",
+      "area": "Máquina no. 2",
+      "nominal_current": 138,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 473,
+      "equipment_key": "MP2-0810-SHPSC",
+      "name": "MB DE VACÍO No.4",
+      "area": "Máquina no. 2",
+      "nominal_current": 340,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 474,
+      "equipment_key": "MP2-0820-SHPSC",
+      "name": "MB DE VACÍO No.3",
+      "area": "Máquina no. 2",
+      "nominal_current": 98.1,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 475,
+      "equipment_key": "MP2-0830-SHPS",
+      "name": "MB DE FOSAS DE BBAS. DE VACÍO",
+      "area": "Máquina no. 2",
+      "nominal_current": 58.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 476,
+      "equipment_key": "MP2-0840-SHPS",
+      "name": "MB AGUA SELLOS DE RODILLO DE SUCCIÓN",
+      "area": "Máquina no. 2",
+      "nominal_current": 13,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 477,
+      "equipment_key": "MP2-0850-SHPS",
+      "name": "MB PRINC. ALIM. A REGADERAS",
+      "area": "Máquina no. 2",
+      "nominal_current": 68,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 478,
+      "equipment_key": "MP2-0860-SHPS",
+      "name": "MB AUX. ALIM. A REGADERAS",
+      "area": "Máquina no. 2",
+      "nominal_current": 85.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 479,
+      "equipment_key": "MP2-0870-SHPS",
+      "name": "MB ALIM. UTM'S MAQ. 2",
+      "area": "Máquina no. 2",
+      "nominal_current": 165,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 480,
+      "equipment_key": "MP2-0880-SHPSC",
+      "name": "MB DE VACÍO No.5",
+      "area": "Máquina no. 2",
+      "nominal_current": 294,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 481,
+      "equipment_key": "MP2-0890-SHPSC",
+      "name": "MB DE VACÍO No.7",
+      "area": "Máquina no. 2",
+      "nominal_current": 294,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 482,
+      "equipment_key": "MP2-0900-SHPS",
+      "name": "M. EXTRACTOR CELDAS NO.3",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 483,
+      "equipment_key": "MP2-0910-SHPSC",
+      "name": "MB FAN SISTEMA CARA",
+      "area": "Máquina no. 2",
+      "nominal_current": 245,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 484,
+      "equipment_key": "MP2-0920-SHPS",
+      "name": "M.VENTILADOR BBA. FAN SISTEMA CARA",
+      "area": "Máquina no. 2",
+      "nominal_current": 2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 485,
+      "equipment_key": "MP2-0930-SHPS",
+      "name": "MB ACHIQUE SEPARADOR NO. 7 SISTEMA DE VACÍO",
+      "area": "Máquina no. 2",
+      "nominal_current": 12.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 486,
+      "equipment_key": "MP2-0940-SHPS",
+      "name": "MB ACHIQUE SEPARADOR NO. 3 SISTEMA DE VACÍO",
+      "area": "Máquina no. 2",
+      "nominal_current": 12.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 487,
+      "equipment_key": "MP2-0950-SHPS",
+      "name": "MB PRINCIPAL COUCH PIT",
+      "area": "Máquina no. 2",
+      "nominal_current": 144,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 488,
+      "equipment_key": "MP2-0960-SHPS",
+      "name": "M. ROTOR NO. 1 COUCH PIT",
+      "area": "Máquina no. 2",
+      "nominal_current": 67,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 489,
+      "equipment_key": "MP2-0970-SHPS",
+      "name": "MB AUXILIAR COUCH PIT",
+      "area": "Máquina no. 2",
+      "nominal_current": 144,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 490,
+      "equipment_key": "MP2-0980-SHPS",
+      "name": "M. ROTOR NO. 2 COUCH PIT",
+      "area": "Máquina no. 2",
+      "nominal_current": 67,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 491,
+      "equipment_key": "MP2-0990-SHPS",
+      "name": "MB ALIM. AGUA BLANCA PRINCIPAL",
+      "area": "Máquina no. 2",
+      "nominal_current": 61,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 492,
+      "equipment_key": "MP2-1000-SHPS",
+      "name": "MB CÁRCAMO DE FOSA TANQUE CUADRADO",
+      "area": "Máquina no. 2",
+      "nominal_current": 6.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 493,
+      "equipment_key": "MP2-1010-SHPS",
+      "name": "MB ALIM. TQ. 20 AGUA BLANCA AUXILIAR",
+      "area": "Máquina no. 2",
+      "nominal_current": 58,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 494,
+      "equipment_key": "MP2-1020-SHPS",
+      "name": "M. EXTRACTOR DE CELDAS NO. 2",
+      "area": "Máquina no. 2",
+      "nominal_current": 1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 495,
+      "equipment_key": "MP2-1030-SHPSC",
+      "name": "MB AGUA DILUCIÓN SISTEMA REVERSO",
+      "area": "Máquina no. 2",
+      "nominal_current": 112,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 496,
+      "equipment_key": "MP2-1040-SHPSC",
+      "name": "MB ALIM. AGUA CORTADORES PRINCIPAL",
+      "area": "Máquina no. 2",
+      "nominal_current": 17.6,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 497,
+      "equipment_key": "MP2-1050-SHPSC",
+      "name": "MB ALIM. AGUA CORTADORES AUXILIAR",
+      "area": "Máquina no. 2",
+      "nominal_current": 12.4,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 498,
+      "equipment_key": "MP2-1060-SHPS",
+      "name": "MB NO. 2 CIRCUITO LUBRICACIÓN TURBO SHAKER",
+      "area": "Máquina no. 2",
+      "nominal_current": 11.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 499,
+      "equipment_key": "MP2-1070-SHPS",
+      "name": "MB NO. 1 CIRCUITO LUBRICACIÓN TURBO SHAKER",
+      "area": "Máquina no. 2",
+      "nominal_current": 11.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 500,
+      "equipment_key": "MP2-1080-SHPSC",
+      "name": "M. DEPURADOR SISTEMA REVERSO",
+      "area": "Máquina no. 2",
+      "nominal_current": 122,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 501,
+      "equipment_key": "MP2-1090-SHPSC",
+      "name": "MB FAN SISTEMA REVERSO",
+      "area": "Máquina no. 2",
+      "nominal_current": 450,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 502,
+      "equipment_key": "MP2-1100-SHPS",
+      "name": "MB RECHAZOS DEPURADORES",
+      "area": "Máquina no. 2",
+      "nominal_current": 60,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 503,
+      "equipment_key": "MP2-1110-SHPSC",
+      "name": "M. AGITADOR No.2 TQ. MÁQUINA SISTEMA CARA",
+      "area": "Máquina no. 2",
+      "nominal_current": 49.4,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 504,
+      "equipment_key": "MP2-1120-SHPS",
+      "name": "MB.AUX. AGUA DILUCIÓN SIST. REVERSO",
+      "area": "Máquina no. 2",
+      "nominal_current": 112,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 505,
+      "equipment_key": "MP2-1130-SHPS",
+      "name": "MB ALIM. A TANQUE \"A\"",
+      "area": "Máquina no. 2",
+      "nominal_current": 169,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 506,
+      "equipment_key": "MP2-1140-SHPS",
+      "name": "MB AGUA REGULADORES CONSIST. TQ. DE MAQ. PRIN",
+      "area": "Máquina no. 2",
+      "nominal_current": 60,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 507,
+      "equipment_key": "MP2-1150-SHPSC",
+      "name": "MB TQ. MÁQUINA SISTEMA CARA",
+      "area": "Máquina no. 2",
+      "nominal_current": 66.2,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 508,
+      "equipment_key": "MP2-1160-SHPSC",
+      "name": "M. AGITADOR No.1 TQ. MÁQUINA SISTEMA CARA",
+      "area": "Máquina no. 2",
+      "nominal_current": 49.4,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 509,
+      "equipment_key": "MP2-1170-SHPSC",
+      "name": "M. AGITADOR No.2 TQ. MÁQUINA SISTEMA REVERSO",
+      "area": "Máquina no. 2",
+      "nominal_current": 87.9,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 510,
+      "equipment_key": "MP2-1180-SHPSC",
+      "name": "MB TQ. MÁQUINA SISTEMA REVERSO",
+      "area": "Máquina no. 2",
+      "nominal_current": 66.2,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 511,
+      "equipment_key": "MP2-1190-SHPSC",
+      "name": "M. AGITADOR No.1 TQ. MÁQUINA SISTEMA REVERSO",
+      "area": "Máquina no. 2",
+      "nominal_current": 86.9,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 512,
+      "equipment_key": "MP2-1200-SHPS",
+      "name": "M. EXTRACTOR DE CELDAS No. 1",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 513,
+      "equipment_key": "MP2-1350-SHPO",
+      "name": "M. HUSILLO GATO LS SISTEMA ELEV. MOD. PRENSA ZAPATA",
+      "area": "Máquina no. 2",
+      "nominal_current": 7.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 514,
+      "equipment_key": "MP2-1360-SHPO",
+      "name": "M. OSCILADOR PRIMERA PRENSA FIELTRO SUPERIOR (BI-NIP)",
+      "area": "Máquina no. 2",
+      "nominal_current": 1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 515,
+      "equipment_key": "MP2-1370-SHPO",
+      "name": "M. TENSOR FIELTRO RODILLO PICK UP",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 516,
+      "equipment_key": "MP2-1380-SHPO",
+      "name": "M. HUSILLO GATO LA SISTEMA ELEV. MOD. PRENSA ZAPATA",
+      "area": "Máquina no. 2",
+      "nominal_current": 7.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 517,
+      "equipment_key": "MP2-1390-SHPO",
+      "name": "M. OSCILADOR DOCTOR PRENSA ASPIRANTE (CENTRAL)",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.89,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 518,
+      "equipment_key": "MP2-1400-SHPO",
+      "name": "MOTO-REDUCTOR RODILLO PICK UP",
+      "area": "Máquina no. 2",
+      "nominal_current": null,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 519,
+      "equipment_key": "MP2-1430-SHPO",
+      "name": "MOTO-REDUCTOR RODILLO DE PECHO TELA SUPERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 5.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 520,
+      "equipment_key": "MP2-1440-SHPO",
+      "name": "MOTO-REDUCTOR RESTIRADOR TELA INFERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 5.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 521,
+      "equipment_key": "MP2-1450-SHPO",
+      "name": "MOTO-REDUCTOR RODILLO DE PECHO TELA INFERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 9.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 522,
+      "equipment_key": "MP2-1460-SHPO",
+      "name": "MOTO-REDUCTOR LABIO TELA INFERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 523,
+      "equipment_key": "MP2-1470-SHPOC",
+      "name": "M. EXTRACTOR BAJO VACÍO No.3 SISTEMA CARA",
+      "area": "Máquina no. 2",
+      "nominal_current": 33.9,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 524,
+      "equipment_key": "MP2-1480-SHPOC",
+      "name": "M. EXTRACTOR BAJO VACÍO No.2 SISTEMA REVERSO",
+      "area": "Máquina no. 2",
+      "nominal_current": 33.9,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 525,
+      "equipment_key": "MP2-1490-SHPOC",
+      "name": "M. EXTRACTOR BAJO VACÍO No.1 SISTEMA REVERSO",
+      "area": "Máquina no. 2",
+      "nominal_current": 22.6,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 526,
+      "equipment_key": "MP2-1500-SHPO",
+      "name": "MOTO-REDUCTOR LABIO TELA SUPERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 527,
+      "equipment_key": "MP2-1510-SHPOC",
+      "name": "M-1 RODILLO DE TRANSFERENCIA SISTEMA CARA",
+      "area": "Máquina no. 2",
+      "nominal_current": 200,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 528,
+      "equipment_key": "MP2-1520-SHPO",
+      "name": "M. VENTILADOR HELPER TELA CARA",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.05,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 529,
+      "equipment_key": "MP2-1530-SHPOC",
+      "name": "M-2 RODILLO TRACTOR SISTEMA CARA",
+      "area": "Máquina no. 2",
+      "nominal_current": 200,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 530,
+      "equipment_key": "MP2-1540-SHPO",
+      "name": "M. VENT. RODILLO TRACCIÓN TELA CARA",
+      "area": "Máquina no. 2",
+      "nominal_current": 2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 531,
+      "equipment_key": "MP2-1550-SHPO",
+      "name": "M. TREN DE MASA NO. 1 TURBO SHAKER",
+      "area": "Máquina no. 2",
+      "nominal_current": null,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 532,
+      "equipment_key": "MP2-1560-SHPO",
+      "name": "M. TREN DE MASA NO. 2 TURBO SHAKER",
+      "area": "Máquina no. 2",
+      "nominal_current": null,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 533,
+      "equipment_key": "MP2-1570-SHPO",
+      "name": "M. VENTILADOR TURBO SHAKER",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.25,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 534,
+      "equipment_key": "MP2-1580-SHPO",
+      "name": "M. VENTILADOR SISTEMA ENFRIAMIENTO TURBO SHAKER",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 535,
+      "equipment_key": "MP2-1590-SHPO",
+      "name": "M. OSCILADOR PRIMERA TELA SISTEMA REVERSO",
+      "area": "Máquina no. 2",
+      "nominal_current": 1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 536,
+      "equipment_key": "MP2-1600-SHPOC",
+      "name": "M. DEPURADOR SISTEMA CARA",
+      "area": "Máquina no. 2",
+      "nominal_current": 90,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 537,
+      "equipment_key": "MP2-1620-SHPO",
+      "name": "M. OSCILADOR SEGUNDA TELA SISTEMA CARA",
+      "area": "Máquina no. 2",
+      "nominal_current": 1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 538,
+      "equipment_key": "MP2-1630-SHPOC",
+      "name": "M-3 RODILLO ASPIRANTE SISTEMA REVERSO",
+      "area": "Máquina no. 2",
+      "nominal_current": 466,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 539,
+      "equipment_key": "MP2-1640-SHPO",
+      "name": "M. VENTILADOR DEL M-3 RODILLO ASPIRANTE SISTEMA REVERSO",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.15,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 540,
+      "equipment_key": "MP2-1645-SHPO",
+      "name": "M. VENTILADOR REDUCTOR M. HELPER REVERSO",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 541,
+      "equipment_key": "MP2-1650-SHPOC",
+      "name": "M-4 RODILLO TRACTOR SISTEMA REVERSO",
+      "area": "Máquina no. 2",
+      "nominal_current": 586,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 542,
+      "equipment_key": "MP2-1670-SHPO",
+      "name": "M. VENTILADOR REDUCTOR 1RA. TELA",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 543,
+      "equipment_key": "MP2-1680-SHPOC",
+      "name": "M-7 PRENSA ASPIRANTE",
+      "area": "Máquina no. 2",
+      "nominal_current": 335,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 544,
+      "equipment_key": "MP2-1690-SHPOC",
+      "name": "M-5 PRENSA INFERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 177,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 545,
+      "equipment_key": "MP2-1700-SHPOC",
+      "name": "M-6 PRENSA SUPERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 226,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 546,
+      "equipment_key": "MP2-1710-SHPOC",
+      "name": "M-9 RODILLO DE PAPEL No.1",
+      "area": "Máquina no. 2",
+      "nominal_current": 9.5,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 547,
+      "equipment_key": "MP2-1720-SHPO",
+      "name": "M. HUSILLO GATO GUÍA PAPEL PRIMERA PRENSA SUP. (BI-NIP)",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.25,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 548,
+      "equipment_key": "MP2-1730-SHPO",
+      "name": "M. OSC. DOCTOR NO. 1 CONTRA RODILLO PRENSA ZAPATA",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.86,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 549,
+      "equipment_key": "MP2-1740-SHPO",
+      "name": "M. OSC. DOCTOR NO. 2 CONTRA RODILLO PRENSA ZAPATA",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.86,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 550,
+      "equipment_key": "MP2-1750-SHPO",
+      "name": "M. OSC. DOCTOR 1 RA PRENSA SUPERIOR (BI-NIP)",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.89,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 551,
+      "equipment_key": "MP2-1760-SHPOC",
+      "name": "M-08 PRENSA ZAPATA",
+      "area": "Máquina no. 2",
+      "nominal_current": 870,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 552,
+      "equipment_key": "MP2-1770-SHPO",
+      "name": "M. VENTILADOR M. M-8 PRENSA ZAPATA",
+      "area": "Máquina no. 2",
+      "nominal_current": 5.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 553,
+      "equipment_key": "MP2-1780-SHPOC",
+      "name": "M-10 RODILLO PAPEL No.2",
+      "area": "Máquina no. 2",
+      "nominal_current": 4.3,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 554,
+      "equipment_key": "MP2-1790-SHPO",
+      "name": "M. HUSILLO GATO GUÍA PAPEL SALIDA PRENSA ZAPATA",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.25,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 555,
+      "equipment_key": "MP2-1800-SSPO",
+      "name": "M. OSCILADOR DOCTOR CILINDRO NO. 1 SUPERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.89,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 556,
+      "equipment_key": "MP2-1810-SSPO",
+      "name": "M. OSCILADOR DOCTOR CILINDRO NO. 2 INFERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.86,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 557,
+      "equipment_key": "MP2-1820-SSPO",
+      "name": "M. OSCILADOR DOCTOR CILINDRO NO. 3 SUPERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.89,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 558,
+      "equipment_key": "MP2-1830-SSPO",
+      "name": "M. OSCILADOR DOCTOR CILINDRO NO. 4 INFERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.86,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 559,
+      "equipment_key": "MP2-1840-SSPOC",
+      "name": "M-11 BATERÍA 1.1",
+      "area": "Máquina no. 2",
+      "nominal_current": 115,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 560,
+      "equipment_key": "MP2-1850-SSPOC",
+      "name": "M-12 BATERÍA 1.2",
+      "area": "Máquina no. 2",
+      "nominal_current": 115,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 561,
+      "equipment_key": "MP2-1860-SSPO",
+      "name": "M. OSCILADOR DOCTOR CILINDRO NO. 5 SUPERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.86,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 562,
+      "equipment_key": "MP2-1870-SSPO",
+      "name": "M. TENSOR 1RA. BATERÍA SUPERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 563,
+      "equipment_key": "MP2-1880-SSPO",
+      "name": "M. TENSOR 2DA. BATERÍA SUPERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 564,
+      "equipment_key": "MP2-1890-SSPO",
+      "name": "M. TENSOR 3RA. BATERÍA SUPERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 565,
+      "equipment_key": "MP2-1900-SSPOC",
+      "name": "M-13 BATERÍA 2.1",
+      "area": "Máquina no. 2",
+      "nominal_current": 71.2,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 566,
+      "equipment_key": "MP2-1910-SSPOC",
+      "name": "M-14 BATERÍA 2.2",
+      "area": "Máquina no. 2",
+      "nominal_current": 71.2,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 567,
+      "equipment_key": "MP2-1920-SSPOC",
+      "name": "M-15 BATERÍA 2.3",
+      "area": "Máquina no. 2",
+      "nominal_current": 71.2,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 568,
+      "equipment_key": "MP2-1930-SSPOC",
+      "name": "M-16 BATERÍA 2.4",
+      "area": "Máquina no. 2",
+      "nominal_current": 71.2,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 569,
+      "equipment_key": "MP2-1940-SSPOC",
+      "name": "M-17 BATERÍA 3.1",
+      "area": "Máquina no. 2",
+      "nominal_current": 71.2,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 570,
+      "equipment_key": "MP2-1950-SSPOC",
+      "name": "M-18 BATERÍA 3.2",
+      "area": "Máquina no. 2",
+      "nominal_current": 71.2,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 571,
+      "equipment_key": "MP2-1960-SSPO",
+      "name": "M. MOVIMIENTO ROTATORIO PRE-SEQUERÍA",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.85,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 572,
+      "equipment_key": "MP2-1970-SSPO",
+      "name": "M. MOVIMIENTO TRANSVERSAL PRE-SEQUERÍA",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.55,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 573,
+      "equipment_key": "MP2-1980-SSPOC",
+      "name": "M-19 BATERÍA 3.3",
+      "area": "Máquina no. 2",
+      "nominal_current": 71.2,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 574,
+      "equipment_key": "MP2-1990-SSPOC",
+      "name": "M-20 BATERÍA 3.4",
+      "area": "Máquina no. 2",
+      "nominal_current": 71.2,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 575,
+      "equipment_key": "MP2-2000-SSPO",
+      "name": "M. NO. 1 SISTEMA AQUATROL",
+      "area": "Máquina no. 2",
+      "nominal_current": 5.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 576,
+      "equipment_key": "MP2-2010-SSPO",
+      "name": "M. NO. 2 SISTEMA AQUATROL",
+      "area": "Máquina no. 2",
+      "nominal_current": 5.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 577,
+      "equipment_key": "MP2-2020-SSPOC",
+      "name": "M. M-21 RODILLO SIZE No.1",
+      "area": "Máquina no. 2",
+      "nominal_current": 9.5,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 578,
+      "equipment_key": "MP2-2030-SSPOC",
+      "name": "M. M-22 RODILLO SIZE No.2",
+      "area": "Máquina no. 2",
+      "nominal_current": 9.5,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 579,
+      "equipment_key": "MP2-2040-SSPOC",
+      "name": "M-23 RODILLO SIZE No.3",
+      "area": "Máquina no. 2",
+      "nominal_current": 4.3,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 580,
+      "equipment_key": "MP2-2050-SSPO",
+      "name": "M-REDUCTOR ACCTO. VARILLA LA ROD. INF. FILM SIZER",
+      "area": "Máquina no. 2",
+      "nominal_current": 9.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 581,
+      "equipment_key": "MP2-2060-SSPO",
+      "name": "M.OSCILADOR DOCTOR CILINDRO NO. 21 SUPERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.86,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 582,
+      "equipment_key": "MP2-2070-SSPOC",
+      "name": "M-25 SIZE PRESS INFERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 115,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 583,
+      "equipment_key": "MP2-2080-SSPOC",
+      "name": "M-24 SIZE PRESS SUPERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 115,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 584,
+      "equipment_key": "MP2-2090-SSPO",
+      "name": "M-REDUCTOR ACCTO. VARILLA LS ROD. INF. FILM SIZER",
+      "area": "Máquina no. 2",
+      "nominal_current": 9.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 585,
+      "equipment_key": "MP2-2100-SSPO",
+      "name": "M-REDUCTOR ACCTO. VARILLA LS ROD. SUP. FILM SIZER",
+      "area": "Máquina no. 2",
+      "nominal_current": 9.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 586,
+      "equipment_key": "MP2-2110-SSPO",
+      "name": "M-REDUCTOR ACCTO. VARILLA LA ROD. SUP. FILM SIZER",
+      "area": "Máquina no. 2",
+      "nominal_current": 9.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 587,
+      "equipment_key": "MP2-2120-SSPO",
+      "name": "M. TENSOR 4TA. BATERÍA SUPERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 588,
+      "equipment_key": "MP2-2130-SSPOC",
+      "name": "M-27 SECADOR 2.2",
+      "area": "Máquina no. 2",
+      "nominal_current": 58,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 589,
+      "equipment_key": "MP2-2140-SSPO",
+      "name": "M.OSCILADOR DOCTOR CILINDRO 22 INFERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 0.86,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 590,
+      "equipment_key": "MP2-2150-SSPOC",
+      "name": "M-28 BATERÍA 4.1",
+      "area": "Máquina no. 2",
+      "nominal_current": 58,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 591,
+      "equipment_key": "MP2-2160-SHPO",
+      "name": "MOTO-REDUCTOR RESTIRADOR TELA SUPERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 5.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 592,
+      "equipment_key": "MP2-2160-SSPOC",
+      "name": "M-29 BATERÍA 4.2",
+      "area": "Máquina no. 2",
+      "nominal_current": 58,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 593,
+      "equipment_key": "MP2-2170-SSPO",
+      "name": "M. OSCILADOR DOCTOR CILINDRO NO. 29 SUPERIOR",
+      "area": "Máquina no. 2",
+      "nominal_current": null,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 594,
+      "equipment_key": "MP2-2180-SSPOC",
+      "name": "M-30 BATERÍA 4.3",
+      "area": "Máquina no. 2",
+      "nominal_current": 58,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 595,
+      "equipment_key": "MP2-2190-SSPOC",
+      "name": "M-31 BATERÍA 4.4",
+      "area": "Máquina no. 2",
+      "nominal_current": 58,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 596,
+      "equipment_key": "MP2-2195-SSPO",
+      "name": "M. SOPLADOR SCANNER PM2",
+      "area": "Máquina no. 2",
+      "nominal_current": 18,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 597,
+      "equipment_key": "MP2-2200-SSPOC",
+      "name": "M-32 RODILLO ENTRADA LISA",
+      "area": "Máquina no. 2",
+      "nominal_current": 4.3,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 598,
+      "equipment_key": "MP2-2210-SSPOC",
+      "name": "M-33 LISA",
+      "area": "Máquina no. 2",
+      "nominal_current": 226,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 599,
+      "equipment_key": "MP2-2215-SSPO",
+      "name": "M. SOPLADOR LISA",
+      "area": "Máquina no. 2",
+      "nominal_current": 17.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 600,
+      "equipment_key": "MP2-2230-SSPOC",
+      "name": "M-34 RODILLO ENTRADA POPE",
+      "area": "Máquina no. 2",
+      "nominal_current": 9.5,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 601,
+      "equipment_key": "MP2-2240-SSPO",
+      "name": "M-36 ACELERADOR DE MANDRILES",
+      "area": "Máquina no. 2",
+      "nominal_current": 9.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 602,
+      "equipment_key": "MP2-2250-SSPO",
+      "name": "M. OSCILADOR DOCTOR ENROLLADOR",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.25,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 603,
+      "equipment_key": "MP2-2260-SSPOC",
+      "name": "M. M-35 POPE",
+      "area": "Máquina no. 2",
+      "nominal_current": 115,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 604,
+      "equipment_key": "MP2-2270-SSPO",
+      "name": "M. DESENROLLADOR DE EMBOBINADORA",
+      "area": "Máquina no. 2",
+      "nominal_current": 374,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 605,
+      "equipment_key": "MP2-2280-SSPO",
+      "name": "M. CENTRADOR DE ROLLO DE BOBINADORA",
+      "area": "Máquina no. 2",
+      "nominal_current": 4.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 606,
+      "equipment_key": "MP2-2290-SSPO",
+      "name": "M. CONTRA CUCHILLA NO. 1",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 607,
+      "equipment_key": "MP2-2300-SSPO",
+      "name": "M. CONTRA CUCHILLA NO. 2",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 608,
+      "equipment_key": "MP2-2310-SSPO",
+      "name": "M. CONTRA CUCHILLA NO. 3",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 609,
+      "equipment_key": "MP2-2320-SSPO",
+      "name": "M. CONTRA CUCHILLA NO. 4",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 610,
+      "equipment_key": "MP2-2330-SSPO",
+      "name": "M. CONTRA CUCHILLA NO. 5",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 611,
+      "equipment_key": "MP2-2340-SSPO",
+      "name": "M. CONTRA CUCHILLA NO. 6",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 612,
+      "equipment_key": "MP2-2350-SSPO",
+      "name": "M. CONTRA CUCHILLA NO. 7",
+      "area": "Máquina no. 2",
+      "nominal_current": null,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 613,
+      "equipment_key": "MP2-2380-SSPO",
+      "name": "M. TAMBOR TRASERO EMBOBINADORA",
+      "area": "Máquina no. 2",
+      "nominal_current": 199,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 614,
+      "equipment_key": "MP2-2390-SSPO",
+      "name": "M. TAMBOR DELANTERO EMBOBINADORA",
+      "area": "Máquina no. 2",
+      "nominal_current": 199,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 615,
+      "equipment_key": "MP2-2400-SSBR",
+      "name": "M. PUENTE L/T GRÚA 40 TON.",
+      "area": "Máquina no. 2",
+      "nominal_current": 6.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 616,
+      "equipment_key": "MP2-2410-SSPO",
+      "name": "M. CARRO NO. 1 \"A\" GRÚA 40 TON.",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 617,
+      "equipment_key": "MP2-2420-SSPO",
+      "name": "M. CARRO NO. 1 \"B\" GRÚA 40 TON.",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 618,
+      "equipment_key": "MP2-2430-SSPO",
+      "name": "M. GANCHO NO. 1 GRÚA 40 TON.",
+      "area": "Máquina no. 2",
+      "nominal_current": 36,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 619,
+      "equipment_key": "MP2-2440-SHPO",
+      "name": "M. CARRO NO. 2 \"A\" GRÚA 40 TON.",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 620,
+      "equipment_key": "MP2-2450-SHPO",
+      "name": "M. CARRO NO. 2 \"B\" GRÚA 40 TON.",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 621,
+      "equipment_key": "MP2-2460-SHPO",
+      "name": "M. GANCHO NO. 2 GRÚA 40 TON.",
+      "area": "Máquina no. 2",
+      "nominal_current": 36,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 622,
+      "equipment_key": "MP2-2470-SHPO",
+      "name": "M. PUENTE L/O GRÚA 40 TON.",
+      "area": "Máquina no. 2",
+      "nominal_current": 6.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 623,
+      "equipment_key": "MP2-2480-SHPO",
+      "name": "M. SISTEMA HIDRÁULICO PLATAFORMA EMBOBINADORA",
+      "area": "Máquina no. 2",
+      "nominal_current": 12.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 624,
+      "equipment_key": "MP2-2490-SHPO",
+      "name": "M. NO. 1 ELEV. PUERTAS \"LS\" CAMP.PRE-SEQ.",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 625,
+      "equipment_key": "MP2-2500-SHPO",
+      "name": "M. NO. 2 ELEV. PUERTAS\"LS\" CAMP.PRE-SEQ.",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 626,
+      "equipment_key": "MP2-2510-SHPO",
+      "name": "M. ELEV. PUERTAS \"LS\" CAMP. POST-SEQ.",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 627,
+      "equipment_key": "MP2-2520-SSPO",
+      "name": "M. GANCHO DE LA GRÚA DE 10 TONELADAS",
+      "area": "Máquina no. 2",
+      "nominal_current": 14.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 628,
+      "equipment_key": "MP2-2530-SSPO",
+      "name": "M. CARRO DE LA GRÚA DE 10 TONELADAS",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 629,
+      "equipment_key": "MP2-2540-SSPO",
+      "name": "M. CARRO DE LA GRÚA DE 20 TONELADAS",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 630,
+      "equipment_key": "MP2-2550-SSPO",
+      "name": "M. GANCHO DE LA GRÚA DE 20 TONELADAS",
+      "area": "Máquina no. 2",
+      "nominal_current": 12.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 631,
+      "equipment_key": "MP2-2560-SSPO",
+      "name": "M. PUENTE GRÚA 10 Y 20 TONELADAS L/O",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 632,
+      "equipment_key": "MP2-2570-SSPO",
+      "name": "M. PUENTE DE LA GRÚA 8 TONELADAS L/T",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 633,
+      "equipment_key": "MP2-2580-SSPO",
+      "name": "M. CARRO DE LA GRÚA DE 8 TONELADAS",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 634,
+      "equipment_key": "MP2-2590-SSPO",
+      "name": "M. GANCHO DE LA GRÚA DE 8 TONELADAS",
+      "area": "Máquina no. 2",
+      "nominal_current": 17.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 635,
+      "equipment_key": "MP2-2600-SSPO",
+      "name": "M. PUENTE DE LA GRÚA 8 TONELADAS L/O",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 636,
+      "equipment_key": "MP2-2610-SSAZ",
+      "name": "M. EXTRACTOR DE VAHOS NO. 4 POST-SEQUERÍA",
+      "area": "Máquina no. 2",
+      "nominal_current": 37.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 637,
+      "equipment_key": "MP2-2620-SSAZ",
+      "name": "M. SOPLADOR NO. 3 PRE-SEQUERÍA",
+      "area": "Máquina no. 2",
+      "nominal_current": 85.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 638,
+      "equipment_key": "MP2-2630-SSAZ",
+      "name": "M. EXTRACTOR DE VAHOS NO. 3 PRE-SEQUERÍA",
+      "area": "Máquina no. 2",
+      "nominal_current": 46,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 639,
+      "equipment_key": "MP2-2640-SSAZ",
+      "name": "M. EXTRACTOR DE VAHOS NO. 2 PRE-SEQUERÍA",
+      "area": "Máquina no. 2",
+      "nominal_current": 37.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 640,
+      "equipment_key": "MP2-2650-SSAZ",
+      "name": "M. SOPLADOR NO. 2 PRE-SEQUERÍA",
+      "area": "Máquina no. 2",
+      "nominal_current": 89.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 641,
+      "equipment_key": "MP2-2660-SSAZ",
+      "name": "M. EXTRACTOR DE VAHOS NO. 1 PRE-SEQUERÍA",
+      "area": "Máquina no. 2",
+      "nominal_current": 25.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 642,
+      "equipment_key": "MP2-2670-SSAZ",
+      "name": "M. SOPLADOR NO. 1 POST-SEQUERÍA",
+      "area": "Máquina no. 2",
+      "nominal_current": 144,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 643,
+      "equipment_key": "MP2-2680-SHAZ",
+      "name": "M. EXTRACTOR NO. 1 DE CASCARONES",
+      "area": "Máquina no. 2",
+      "nominal_current": 3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 644,
+      "equipment_key": "MP2-2690-SHAZ",
+      "name": "M. EXTRACTOR NO. 2 DE CASCARONES",
+      "area": "Máquina no. 2",
+      "nominal_current": 3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 645,
+      "equipment_key": "MP2-2700-SHAZ",
+      "name": "M. EXTRACTOR NO. 3 DE CASCARONES",
+      "area": "Máquina no. 2",
+      "nominal_current": 3.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 646,
+      "equipment_key": "MP2-2720-SHAZ",
+      "name": "M. EXTRACTOR NO. 5 DE CASCARONES",
+      "area": "Máquina no. 2",
+      "nominal_current": 3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 647,
+      "equipment_key": "MP2-2730-SHAZ",
+      "name": "M. EXTRACTOR NO. 6 DE CASCARONES",
+      "area": "Máquina no. 2",
+      "nominal_current": 3.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 648,
+      "equipment_key": "MP2-2740-SSAZ",
+      "name": "M. EXTRACTOR NO. 7 DE CASCARONES",
+      "area": "Máquina no. 2",
+      "nominal_current": 3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 649,
+      "equipment_key": "MP2-2750-SSAZ",
+      "name": "M. EXTRACTOR NO. 8 DE CASCARONES",
+      "area": "Máquina no. 2",
+      "nominal_current": 3.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 650,
+      "equipment_key": "MP2-2760-SSAZ",
+      "name": "M. EXTRACTOR NO. 9 DE CASCARONES",
+      "area": "Máquina no. 2",
+      "nominal_current": 3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 651,
+      "equipment_key": "MP2-2770-SSAZ",
+      "name": "M. EXTRACTOR NO. 10 DE CASCARONES",
+      "area": "Máquina no. 2",
+      "nominal_current": 3.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 652,
+      "equipment_key": "MP2-2780-SSAZ",
+      "name": "M. EXTRACTOR NO. 11 DE CASCARONES",
+      "area": "Máquina no. 2",
+      "nominal_current": 3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 653,
+      "equipment_key": "MP2-2790-SSAZ",
+      "name": "M. EXTRACTOR NO. 12 DE CASCARONES",
+      "area": "Máquina no. 2",
+      "nominal_current": 3.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 654,
+      "equipment_key": "MP2-2800-SSAZ",
+      "name": "M. EXTRACTOR NO. 13 DE CASCARONES",
+      "area": "Máquina no. 2",
+      "nominal_current": 3.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 655,
+      "equipment_key": "MP2-2810-SSAZ",
+      "name": "M. EXTRACTOR NO. 14 DE CASCARONES",
+      "area": "Máquina no. 2",
+      "nominal_current": 3.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 656,
+      "equipment_key": "MP2-2820-SSAZ",
+      "name": "M. EXTRACTOR NO. 15 DE CASCARONES",
+      "area": "Máquina no. 2",
+      "nominal_current": 3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 657,
+      "equipment_key": "MP2-2830-SSAZ",
+      "name": "M. EXTRACTOR NO. 16 DE CASCARONES",
+      "area": "Máquina no. 2",
+      "nominal_current": 3.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 658,
+      "equipment_key": "MP2-2832-SSAZ",
+      "name": "M. EXTRACTOR NO. 17 DE CASCARONES",
+      "area": "Máquina no. 2",
+      "nominal_current": 3.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 659,
+      "equipment_key": "MP2-2834-SSAZ",
+      "name": "M. EXTRACTOR NO. 18 DE CASCARONES",
+      "area": "Máquina no. 2",
+      "nominal_current": 3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 660,
+      "equipment_key": "MP2-2840-SSPS",
+      "name": "M. POLIPASTO MANIOBRAS TALLER DE MOTORES",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 661,
+      "equipment_key": "MP2-2850-SSPS",
+      "name": "M. ESMERIL DEL TALLER ELECTRICO",
+      "area": "Máquina no. 2",
+      "nominal_current": 3.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 662,
+      "equipment_key": "MP2-2860-SSPS",
+      "name": "M. TALADRO DE TALLER ELÉCTRICO",
+      "area": "Máquina no. 2",
+      "nominal_current": 1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 663,
+      "equipment_key": "MP2-2870-SSPS",
+      "name": "M. CORTADOR DE TUBO METÁLICO",
+      "area": "Máquina no. 2",
+      "nominal_current": 6.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 664,
+      "equipment_key": "MP2-2880-SSPS",
+      "name": "M. CARRO DEL POLIPASTO TALLER DE MOTORES",
+      "area": "Máquina no. 2",
+      "nominal_current": 1.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 665,
+      "equipment_key": "MP2-2890-SSPS",
+      "name": "M. EMBOBINADORA DE SOBRANTES NO. 2",
+      "area": "Máquina no. 2",
+      "nominal_current": 90,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 666,
+      "equipment_key": "MP2-2900-SSPS",
+      "name": "M. EXTRACTOR DE TIRA EMB. SOBRANTES",
+      "area": "Máquina no. 2",
+      "nominal_current": 17,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 667,
+      "equipment_key": "MP2-2910-SSPS",
+      "name": "MB DE LUBRICACIÓN DEL VITAPULPER",
+      "area": "Máquina no. 2",
+      "nominal_current": 1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 668,
+      "equipment_key": "MP2-2920-SSPS",
+      "name": "MB DE DESCARGA VITAPULPER",
+      "area": "Máquina no. 2",
+      "nominal_current": 26.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 669,
+      "equipment_key": "MP2-2930-SSPS",
+      "name": "M. VITAPULPER",
+      "area": "Máquina no. 2",
+      "nominal_current": 64,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 670,
+      "equipment_key": "MP2-2950-SHPS",
+      "name": "M. AGIT. DE LA TOLVA",
+      "area": "Máquina no. 2",
+      "nominal_current": 60,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 671,
+      "equipment_key": "MP2-2960-SHPS",
+      "name": "MB DESCARGA DE LA TOLVA",
+      "area": "Máquina no. 2",
+      "nominal_current": 37.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 672,
+      "equipment_key": "MP2-2970-SHPS",
+      "name": "MB TQ. MAQ. REV. M1",
+      "area": "Máquina no. 2",
+      "nominal_current": 60.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 673,
+      "equipment_key": "MP2-3010-SSPO",
+      "name": "M. PORTA ROLLO LADO A EXT. EMB. SOBRA.",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 674,
+      "equipment_key": "MP2-3020-SSPO",
+      "name": "M. PORTA ROLLO LADO B INT. EMB. SOBRA.",
+      "area": "Máquina no. 2",
+      "nominal_current": 2.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 675,
+      "equipment_key": "MP2-3030-SSPO",
+      "name": "M. RODILLO DE ROTACIÓN PORTAROLLOS",
+      "area": "Máquina no. 2",
+      "nominal_current": null,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 676,
+      "equipment_key": "MP2-3040-SSPO",
+      "name": "M. No. 1 EMBOBINADORA DE SOBRANTES",
+      "area": "Máquina no. 2",
+      "nominal_current": 14,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 677,
+      "equipment_key": "MP2-3050-SSBH",
+      "name": "M. AIRE LAVADO S.E. SECCIÓN HÚMEDA",
+      "area": "Máquina no. 2",
+      "nominal_current": 8.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 678,
+      "equipment_key": "MP2-3060-SSBH",
+      "name": "M. EVAPORADOR (TURBINA) AIRE ACONDICIONADO S.E. S.S.",
+      "area": "Máquina no. 2",
+      "nominal_current": 9.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 679,
+      "equipment_key": "MP2-3070-SSBH",
+      "name": "MOTO-COMPRESOR NO. 1 AIRE ACONDICIONADO S.E.S.S.",
+      "area": "Máquina no. 2",
+      "nominal_current": 31,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 680,
+      "equipment_key": "MP2-3080-SSBH",
+      "name": "MOTO-COMPRESOR NO. 2 AIRE ACONDICIONADO S.E. S.S.",
+      "area": "Máquina no. 2",
+      "nominal_current": 31,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 681,
+      "equipment_key": "MP2-3090-SSBH",
+      "name": "M. VENTILADOR NO. 1 AIRE ACONDICIONADO S.E. S.S.",
+      "area": "Máquina no. 2",
+      "nominal_current": 3.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 682,
+      "equipment_key": "MP2-3100-SSBH",
+      "name": "M. VENTILADOR NO. 2 AIRE ACONDICIONADO S.E. S.S.",
+      "area": "Máquina no. 2",
+      "nominal_current": 3.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 683,
+      "equipment_key": "MP2-3110-SSBH",
+      "name": "M. VENTILADOR NO. 3 AIRE ACONDICIONADO S.E. S.S.",
+      "area": "Máquina no. 2",
+      "nominal_current": 3.02,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 684,
+      "equipment_key": "MP3-0010-SSPS",
+      "name": "M. EXTRACTOR TIRA(TrimChopper)  EMBOB.",
+      "area": "Máquina no. 3",
+      "nominal_current": 48,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 685,
+      "equipment_key": "MP3-0020-SSPS",
+      "name": "MB 1(Hidr.Oil Pump1)  SIST.HIDR. EMBOB.",
+      "area": "Máquina no. 3",
+      "nominal_current": 70,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 686,
+      "equipment_key": "MP3-0030-SSPS",
+      "name": "MB 2(Hidr.Oil Pump2)  SIST.HIDR. EMBOB.",
+      "area": "Máquina no. 3",
+      "nominal_current": 70,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 687,
+      "equipment_key": "MP3-0040-SSPS",
+      "name": "MB 3(OilPump3 Recirc.)  SIST.HIDR. EMBOB.",
+      "area": "Máquina no. 3",
+      "nominal_current": 9.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 688,
+      "equipment_key": "MP3-0050-SSPS",
+      "name": "MB 4(OilPump4 Recirc.)  SIST.HIDR. EMBOB.",
+      "area": "Máquina no. 3",
+      "nominal_current": 9.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 689,
+      "equipment_key": "MP3-0060-SSPS",
+      "name": "M. VENTILADOR  SIST.HIDRÁULICO EMBOB.",
+      "area": "Máquina no. 3",
+      "nominal_current": 6.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 690,
+      "equipment_key": "MP3-0070-SSPS",
+      "name": "M. ESMERIL  TALLER MECÁNICO",
+      "area": "Máquina no. 3",
+      "nominal_current": 3.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 691,
+      "equipment_key": "MP3-0080-SSPS",
+      "name": "M. DOBLADOR LÁMINA  TALLER MECÁNICO",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 692,
+      "equipment_key": "MP3-0090-SSPS",
+      "name": "MB HIDR. PRINC.  ROD.S SUP. CALANDRA",
+      "area": "Máquina no. 3",
+      "nominal_current": 5.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 693,
+      "equipment_key": "MP3-0100-SSPS",
+      "name": "MB HIDR. AUX.  ROD.S SUP./INF. CALANDRA",
+      "area": "Máquina no. 3",
+      "nominal_current": 12.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 694,
+      "equipment_key": "MP3-0110-SSPS",
+      "name": "MB HIDR. PRINC.  ROD.S INF. CALANDRA",
+      "area": "Máquina no. 3",
+      "nominal_current": 12.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 695,
+      "equipment_key": "MP3-0120-SSPS",
+      "name": "M. VENTILADOR 1  INTERC.CALOR SIST.HIDR.CALANDRA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.89,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 696,
+      "equipment_key": "MP3-0130-SSPS",
+      "name": "M. VENTILADOR 2  INTERC.CALOR SIST.HIDR.CALANDRA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.89,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 697,
+      "equipment_key": "MP3-0140-SSPS",
+      "name": "M. RESTIRADOR  LONA INF. 2a.SECC.SEC.",
+      "area": "Máquina no. 3",
+      "nominal_current": 4.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 698,
+      "equipment_key": "MP3-0150-SSPS",
+      "name": "M. RESTIRADOR  LONA INF. 3a.SECC.SEC.",
+      "area": "Máquina no. 3",
+      "nominal_current": 2.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 699,
+      "equipment_key": "MP3-0160-SSPS",
+      "name": "MB CÁRCAMO SIDRAPULPER",
+      "area": "Máquina no. 3",
+      "nominal_current": 7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 700,
+      "equipment_key": "MP3-0170-SSPS",
+      "name": "M. SIDRAPULPER",
+      "area": "Máquina no. 3",
+      "nominal_current": 184,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 701,
+      "equipment_key": "MP3-0180-SSPS",
+      "name": "MB DESCARGA  SIDRAPULPER",
+      "area": "Máquina no. 3",
+      "nominal_current": 41,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 702,
+      "equipment_key": "MP3-0220-SSPS",
+      "name": "MB No.2  CONDENSADO",
+      "area": "Máquina no. 3",
+      "nominal_current": 7.28,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 703,
+      "equipment_key": "MP3-0230-SSPS",
+      "name": "MB No.1  CONDENSADO",
+      "area": "Máquina no. 3",
+      "nominal_current": 7.28,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 704,
+      "equipment_key": "MP3-0240-SSPS",
+      "name": "MB No.2 CONDENSADO TANQUE CENTRAL",
+      "area": "Máquina no. 3",
+      "nominal_current": 12.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 705,
+      "equipment_key": "MP3-0250-SSPS",
+      "name": "MB No.1 CONDENSADO TANQUE CENTRAL",
+      "area": "Máquina no. 3",
+      "nominal_current": 12.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 706,
+      "equipment_key": "MP3-0260-SSPSC",
+      "name": "M. TRANSMISIÓN PRINCIPAL",
+      "area": "Máquina no. 3",
+      "nominal_current": 1266,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 707,
+      "equipment_key": "MP3-0270-SSPS",
+      "name": "-TACÓMETRO  M. TRANSM. PRINCIPAL",
+      "area": "Máquina no. 3",
+      "nominal_current": 100,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 708,
+      "equipment_key": "MP3-0280-SSPSC",
+      "name": "M. TRANSMISIÓN AUXILIAR",
+      "area": "Máquina no. 3",
+      "nominal_current": 1260,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 709,
+      "equipment_key": "MP3-0290-SSPS",
+      "name": "-TACÓMETRO  M.TRANSM.AUXILIAR",
+      "area": "Máquina no. 3",
+      "nominal_current": 100,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 710,
+      "equipment_key": "MP3-0300-SSPS",
+      "name": "M. CABEZAL  RECTIFICADORA",
+      "area": "Máquina no. 3",
+      "nominal_current": 17.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 711,
+      "equipment_key": "MP3-0310-SSPS",
+      "name": "M. ESMERIL  RECTIFICADORA",
+      "area": "Máquina no. 3",
+      "nominal_current": 12.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 712,
+      "equipment_key": "MP3-0320-SSPS",
+      "name": "M. AVANCE RÁPIDO  RECTIFICADORA",
+      "area": "Máquina no. 3",
+      "nominal_current": 8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 713,
+      "equipment_key": "MP3-0330-SSPS",
+      "name": "M. IMÁN  RECTIFICADORA",
+      "area": "Máquina no. 3",
+      "nominal_current": null,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 714,
+      "equipment_key": "MP3-0340-SSPS",
+      "name": "M. EXTRACTOR POLVO  RECTIFICADORA",
+      "area": "Máquina no. 3",
+      "nominal_current": 6.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 715,
+      "equipment_key": "MP3-0350-SSPS",
+      "name": "MB REFRIGERANTE  RECTIFICADORA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 716,
+      "equipment_key": "MP3-0360-SSPS",
+      "name": "MB REFRIGERANTE PISO  RECTIFIC.",
+      "area": "Máquina no. 3",
+      "nominal_current": null,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 717,
+      "equipment_key": "MP3-0370-SSPS",
+      "name": "MB CENTRÍFUGA  TQ.ACEITE LUBRIC.SEC.",
+      "area": "Máquina no. 3",
+      "nominal_current": 3.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 718,
+      "equipment_key": "MP3-0380-SSPS",
+      "name": "MB No.1 ACEITE  LUBRIC.SECADORES",
+      "area": "Máquina no. 3",
+      "nominal_current": 8.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 719,
+      "equipment_key": "MP3-0390-SSPS",
+      "name": "MB No.2 ACEITE  LUBRIC.SECADORES",
+      "area": "Máquina no. 3",
+      "nominal_current": 8.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 720,
+      "equipment_key": "MP3-0400-SSPS",
+      "name": "M. EXTRACTOR  TQ.ACEITE LUBRIC.SEC.",
+      "area": "Máquina no. 3",
+      "nominal_current": 2.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 721,
+      "equipment_key": "MP3-0410-SHPS",
+      "name": "M. OSCILADOR  FIELTRO INF. 1a.PRENSA",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.78,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 722,
+      "equipment_key": "MP3-0420-SHPS",
+      "name": "M. OSCILADOR FIELTRO INF. 2a.PRENSA",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.78,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 723,
+      "equipment_key": "MP3-0430-SHPS",
+      "name": "MB No.2  SEPARADORA VACÍO",
+      "area": "Máquina no. 3",
+      "nominal_current": 4.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 724,
+      "equipment_key": "MP3-0440-SHPS",
+      "name": "MB No.1  SEPARADORA VACÍO",
+      "area": "Máquina no. 3",
+      "nominal_current": 5.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 725,
+      "equipment_key": "MP3-0450-SHPS",
+      "name": "MB  REGADERA RODILLO PECHO",
+      "area": "Máquina no. 3",
+      "nominal_current": 32.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 726,
+      "equipment_key": "MP3-0460-SHPSC",
+      "name": "MB AUX.  ALIM. AGUA A CORTADORES",
+      "area": "Máquina no. 3",
+      "nominal_current": 11.1,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 727,
+      "equipment_key": "MP3-0470-SHPSC",
+      "name": "MB PRINC. ALIM. AGUA A CORTADORES",
+      "area": "Máquina no. 3",
+      "nominal_current": 12.3,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 728,
+      "equipment_key": "MP3-0480-SHPS",
+      "name": "M. AGITADOR No.1  TOLVA",
+      "area": "Máquina no. 3",
+      "nominal_current": 38,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 729,
+      "equipment_key": "MP3-0490-SHPS",
+      "name": "M. AGITADOR No.2  TOLVA",
+      "area": "Máquina no. 3",
+      "nominal_current": 38,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 730,
+      "equipment_key": "MP3-0500-SHPS",
+      "name": "MB DESCARGA TOLVA MÁQ.3",
+      "area": "Máquina no. 3",
+      "nominal_current": 78,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 731,
+      "equipment_key": "MP3-0510-SHPS",
+      "name": "MB AGUA A TRATAMIENTO",
+      "area": "Máquina no. 3",
+      "nominal_current": 143,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 732,
+      "equipment_key": "MP3-0520-SHPSC",
+      "name": "MB DE VACÍO No.5",
+      "area": "Máquina no. 3",
+      "nominal_current": 81,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 733,
+      "equipment_key": "MP3-0530-SHPSC",
+      "name": "MB DE VACÍO No.4",
+      "area": "Máquina no. 3",
+      "nominal_current": 116,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 734,
+      "equipment_key": "MP3-0540-SHPS",
+      "name": "M. VENTILADOR No.1  MB 4 VACÍO",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 735,
+      "equipment_key": "MP3-0550-SHPS",
+      "name": "M. VENTILADOR No.2 MB 4 VACÍO",
+      "area": "Máquina no. 3",
+      "nominal_current": 2.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 736,
+      "equipment_key": "MP3-0560-SHPSC",
+      "name": "MB DE VACÍO No.3",
+      "area": "Máquina no. 3",
+      "nominal_current": 113,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 737,
+      "equipment_key": "MP3-0570-SHPS",
+      "name": "MB CÁRCAMO FOSA BBAS.DRENAJE 4 y 5",
+      "area": "Máquina no. 3",
+      "nominal_current": 6.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 738,
+      "equipment_key": "MP3-0580-SHPS",
+      "name": "MB DRENAJE NO. 5",
+      "area": "Máquina no. 3",
+      "nominal_current": 52,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 739,
+      "equipment_key": "MP3-0590-SHPS",
+      "name": "MB DRENAJE No.4",
+      "area": "Máquina no. 3",
+      "nominal_current": 48,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 740,
+      "equipment_key": "MP3-0600-SHPSC",
+      "name": "MB DE VACÍO No.2",
+      "area": "Máquina no. 3",
+      "nominal_current": 227,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 741,
+      "equipment_key": "MP3-0610-SHPSC",
+      "name": "MB DE VACÍO No.1",
+      "area": "Máquina no. 3",
+      "nominal_current": 233,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 742,
+      "equipment_key": "MP3-0620-SHPSC",
+      "name": "M. EXTRACTOR No.1  BAJO VACÍO",
+      "area": "Máquina no. 3",
+      "nominal_current": 32.7,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 743,
+      "equipment_key": "MP3-0630-SHPS",
+      "name": "MB FOSA BOMBAS VACÍO MÁQ.3",
+      "area": "Máquina no. 3",
+      "nominal_current": 48,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 744,
+      "equipment_key": "MP3-0640-SHPSC",
+      "name": "MB FAN  REVERSO",
+      "area": "Máquina no. 3",
+      "nominal_current": 248,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 745,
+      "equipment_key": "MP3-0650-SHPS",
+      "name": "MB 2  ALIM.A REGADS. MESA SUP.",
+      "area": "Máquina no. 3",
+      "nominal_current": 74,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 746,
+      "equipment_key": "MP3-0660-SHPS",
+      "name": "M. REDUCTOR  VÁLV.CTRL.SUCC. BBA.FAN REV.",
+      "area": "Máquina no. 3",
+      "nominal_current": 2.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 747,
+      "equipment_key": "MP3-0670-SHPS",
+      "name": "MBA CÁRCAMO FOSA BOMBA FAN Rev.",
+      "area": "Máquina no. 3",
+      "nominal_current": 4.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 748,
+      "equipment_key": "MP3-0680-SHPSC",
+      "name": "M. DEPURADOR  REVERSO",
+      "area": "Máquina no. 3",
+      "nominal_current": 143,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 749,
+      "equipment_key": "MP3-0690-SHPSC",
+      "name": "MB PRINC. ALIM.A REGADS. MESA INF. Y SUP.",
+      "area": "Máquina no. 3",
+      "nominal_current": 85.9,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 750,
+      "equipment_key": "MP3-0700-SHPSC",
+      "name": "MB AUX. ALIM.A REGADS. MESA INF. y SUP.",
+      "area": "Máquina no. 3",
+      "nominal_current": 68,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 751,
+      "equipment_key": "MP3-0710-SHPSC",
+      "name": "M. DEPURADOR  CARA",
+      "area": "Máquina no. 3",
+      "nominal_current": 92.9,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 752,
+      "equipment_key": "MP3-0720-SHPSC",
+      "name": "MB FAN CARA",
+      "area": "Máquina no. 3",
+      "nominal_current": 367,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 753,
+      "equipment_key": "MP3-0730-SHPSC",
+      "name": "MB AGUA A REGULADORES CONSISTENCIA",
+      "area": "Máquina no. 3",
+      "nominal_current": 60,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 754,
+      "equipment_key": "MP3-0740-SHPSC",
+      "name": "MB PRINC. RECHAZOS DEPURADORES",
+      "area": "Máquina no. 3",
+      "nominal_current": 52,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 755,
+      "equipment_key": "MP3-0750-SHPSC",
+      "name": "MB AUX.  RECHAZOS DEPURADORES",
+      "area": "Máquina no. 3",
+      "nominal_current": 48.8,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 756,
+      "equipment_key": "MP3-0760-SHPSC",
+      "name": "M. AGITADOR No.2  TANQUE MÁQUINA REVERSO",
+      "area": "Máquina no. 3",
+      "nominal_current": 73,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 757,
+      "equipment_key": "MP3-0770-SHPSC",
+      "name": "MB TANQUE MÁQUINA REVERSO",
+      "area": "Máquina no. 3",
+      "nominal_current": 113,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 758,
+      "equipment_key": "MP3-0780-SHPSC",
+      "name": "M. AGITADOR No.1  TANQUE MÁQUINA REVERSO",
+      "area": "Máquina no. 3",
+      "nominal_current": 53,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 759,
+      "equipment_key": "MP3-0790-SHPS",
+      "name": "M. GANCHO  POLIPASTO BASURA",
+      "area": "Máquina no. 3",
+      "nominal_current": 5.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 760,
+      "equipment_key": "MP3-0800-SHPS",
+      "name": "M. CARRO POLIPASTO BASURA",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.97,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 761,
+      "equipment_key": "MP3-0810-PPPSC",
+      "name": "M. AGITADOR  TANQUE MÁQUINA CARA",
+      "area": "Máquina no. 3",
+      "nominal_current": 38,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 762,
+      "equipment_key": "MP3-0820-PPPSC",
+      "name": "MB TANQUE MÁQUINA CARA",
+      "area": "Máquina no. 3",
+      "nominal_current": 48,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 763,
+      "equipment_key": "MP3-0960-SHPO",
+      "name": "M. COMPRESOR  CAJA ENTRADA (1a.TELA)",
+      "area": "Máquina no. 3",
+      "nominal_current": 3.84,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 764,
+      "equipment_key": "MP3-0970-SHPO",
+      "name": "M. LABIO CAJA ENTRADA (1a.TELA)",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 765,
+      "equipment_key": "MP3-0980-SHPOC",
+      "name": "M. RODILLO TRACCIÓN  TELA CARA",
+      "area": "Máquina no. 3",
+      "nominal_current": 230,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 766,
+      "equipment_key": "MP3-0990-SHPO",
+      "name": "-TACÓMETRO M.ROD.TRACC. 2a.TELA",
+      "area": "Máquina no. 3",
+      "nominal_current": null,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 767,
+      "equipment_key": "MP3-1000-SHPO",
+      "name": "M. VENTILADOR  M.ROD.TRACC. 2a.TELA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 768,
+      "equipment_key": "MP3-1010-SHPOC",
+      "name": "M. RODILLO HELPER  TELA CARA",
+      "area": "Máquina no. 3",
+      "nominal_current": 230,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 769,
+      "equipment_key": "MP3-1020-SHPO",
+      "name": "-TACÓMETRO M.ROD.HELPER 2a.TELA",
+      "area": "Máquina no. 3",
+      "nominal_current": 250,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 770,
+      "equipment_key": "MP3-1030-SHPO",
+      "name": "M. VENTILADOR  M.ROD.HELPER 2a.TELA",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 771,
+      "equipment_key": "MP3-1040-SHPOC",
+      "name": "M. RODILLO ROMPEBOLAS ENTRADA TELA CARA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.85,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 772,
+      "equipment_key": "MP3-1050-SHPOC",
+      "name": "M. RODILLO ROMPEBOLAS  SALIDA TELA CARA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.73,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 773,
+      "equipment_key": "MP3-1060-SHPO",
+      "name": "M. LABIO CAJA ENTRADA 2a.TELA",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.42,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 774,
+      "equipment_key": "MP3-1070-SHPO",
+      "name": "M. REGADERA INTERNA  CAJA ENTRADA 2a.TELA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 775,
+      "equipment_key": "MP3-1080-SHPO",
+      "name": "M. OSCILADOR  1a.TELA",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.78,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 776,
+      "equipment_key": "MP3-1090-SHPOC",
+      "name": "M. EXTRACTOR No.2  BAJO VACÍO",
+      "area": "Máquina no. 3",
+      "nominal_current": 56.9,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 777,
+      "equipment_key": "MP3-1100-SHPS",
+      "name": "M. COMPRESOR CAJA ENTRADA (2a. TELA)",
+      "area": "Máquina no. 3",
+      "nominal_current": 12.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 778,
+      "equipment_key": "MP3-1110-SHPOC",
+      "name": "M. RODILLO HELPER TELA REVERSO",
+      "area": "Máquina no. 3",
+      "nominal_current": 429,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 779,
+      "equipment_key": "MP3-1120-SHPO",
+      "name": "-TACÓMETRO M.ROD.HELPER (1a.TELA)",
+      "area": "Máquina no. 3",
+      "nominal_current": 100,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 780,
+      "equipment_key": "MP3-1130-SHPO",
+      "name": "M. VENTILADOR  M.ROD.HELPER (1a.TELA)",
+      "area": "Máquina no. 3",
+      "nominal_current": 2.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 781,
+      "equipment_key": "MP3-1140-SHPO",
+      "name": "MB RECIRC.ACEITE REDUC.M.1a.TELA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.16,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 782,
+      "equipment_key": "MP3-1150-SHPO",
+      "name": "M. VENTILADOR INTERC.CALOR REDUCT.M.1a.TELA",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 783,
+      "equipment_key": "MP3-1160-SHPOC",
+      "name": "M. RODILLO TRACCIÓN  TELA REVERSO",
+      "area": "Máquina no. 3",
+      "nominal_current": 429,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 784,
+      "equipment_key": "MP3-1170-SHPO",
+      "name": "-TACÓMETRO M.ROD.TRACC. 1a.TELA",
+      "area": "Máquina no. 3",
+      "nominal_current": 100,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 785,
+      "equipment_key": "MP3-1180-SHPO",
+      "name": "M. VENTILADOR  M.ROD.TRACC. 1a.TELA",
+      "area": "Máquina no. 3",
+      "nominal_current": 3.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 786,
+      "equipment_key": "MP3-1190-SHPO",
+      "name": "M. PASABANDA  1a.PRENSA",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 787,
+      "equipment_key": "MP3-1200-SHPO",
+      "name": "M. PASABANDA  2a.PRENSA",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 788,
+      "equipment_key": "MP3-1210-SHSE",
+      "name": "M. VENTILADOR 1  TRANSF.POTENCIA S.E. S.H.",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 789,
+      "equipment_key": "MP3-1220-SHSE",
+      "name": "M. VENTILADOR 2 TRANSF.POTENCIA S.E. S.H.",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 790,
+      "equipment_key": "MP3-1230-SHSE",
+      "name": "M. VENTILADOR 1  TABLERO CTROL.TRANSM.",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 791,
+      "equipment_key": "MP3-1240-SHSE",
+      "name": "M. VENTILADOR 2  TABLERO CTROL.TRANSM.",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 792,
+      "equipment_key": "MP3-1270-SHPO",
+      "name": "M. OSCILADOR 2a. TELA",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.78,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 793,
+      "equipment_key": "MP3-1280-SHPO",
+      "name": "M. OSCILADOR  FIELTRO SUP. 1a.PRENSA",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.78,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 794,
+      "equipment_key": "MP3-1290-SHPO",
+      "name": "M. OSCILADOR  FIELTRO SUP. 2a.PRENSA",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.78,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 795,
+      "equipment_key": "MP3-1300-SHPO",
+      "name": "M. RESTIRADOR  LONA 1a.SECC.SECADORES",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 796,
+      "equipment_key": "MP3-1310-SSPO",
+      "name": "M. ELEVADOR  PUERTA CAMPANA SEC. 1a.SECC.",
+      "area": "Máquina no. 3",
+      "nominal_current": 5.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 797,
+      "equipment_key": "MP3-1320-SSPO",
+      "name": "M. ELEVADOR  PUERTA CAMPANA SEC. 2a.SECC.",
+      "area": "Máquina no. 3",
+      "nominal_current": 5.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 798,
+      "equipment_key": "MP3-1330-SSPO",
+      "name": "M. ELEVADOR  PUERTA CAMPANA SEC. 3a.SECC.",
+      "area": "Máquina no. 3",
+      "nominal_current": 5.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 799,
+      "equipment_key": "MP3-1340-SSPO",
+      "name": "M. MARCHA LENTA  1a.SECCIÓN SECADORES",
+      "area": "Máquina no. 3",
+      "nominal_current": 7.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 800,
+      "equipment_key": "MP3-1360-SSPO",
+      "name": "M. PASABANDA  1a.SECCIÓN SECADORES",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 801,
+      "equipment_key": "MP3-1370-SSPO",
+      "name": "M. SIST.VENTILACIÓN  Mot.TRANSM.PRINC./AUX.",
+      "area": "Máquina no. 3",
+      "nominal_current": 12,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 802,
+      "equipment_key": "MP3-1380-SSPO",
+      "name": "M. MARCHA LENTA  2a.SECCIÓN SECADORES",
+      "area": "Máquina no. 3",
+      "nominal_current": 6.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 803,
+      "equipment_key": "MP3-1390-SSPO",
+      "name": "M. PASABANDA  2a.SECCIÓN SECADORES",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 804,
+      "equipment_key": "MP3-1400-SSPO",
+      "name": "MB No.1  SIST.AQUATROL",
+      "area": "Máquina no. 3",
+      "nominal_current": 5.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 805,
+      "equipment_key": "MP3-1410-SSPO",
+      "name": "MB No.2  SISTEMA AQUATROL",
+      "area": "Máquina no. 3",
+      "nominal_current": 5.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 806,
+      "equipment_key": "MP3-1420-SSPO",
+      "name": "M. VENTILADOR  SIST.AQUATROL",
+      "area": "Máquina no. 3",
+      "nominal_current": 12,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 807,
+      "equipment_key": "MP3-1430-SSPO",
+      "name": "M. MARCHA LENTA  3a.SECCIÓN SECADORES",
+      "area": "Máquina no. 3",
+      "nominal_current": 6.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 808,
+      "equipment_key": "MP3-1440-SSPO",
+      "name": "M. PASABANDA  3a.SECCIÓN SECADORES",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 809,
+      "equipment_key": "MP3-1450-SSPO",
+      "name": "M. PASABANDA  4a.SECCIÓN SECADORES",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 810,
+      "equipment_key": "MP3-1460-SSPO",
+      "name": "M. SEPARADOR TIRA EMBOB.",
+      "area": "Máquina no. 3",
+      "nominal_current": 2.7,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 811,
+      "equipment_key": "MP3-1470-SSPO",
+      "name": "M. RESTIRADOR  LONA L.TRANSM. 4a.SECC.SEC.",
+      "area": "Máquina no. 3",
+      "nominal_current": 3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 812,
+      "equipment_key": "MP3-1480-SSPO",
+      "name": "M. RESTIRADOR  LONA L.OPER. 4a.SECC.SEC.",
+      "area": "Máquina no. 3",
+      "nominal_current": 3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 813,
+      "equipment_key": "MP3-1490-SSPOC",
+      "name": "M. CALANDRA",
+      "area": "Máquina no. 3",
+      "nominal_current": 429,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 814,
+      "equipment_key": "MP3-1500-SSPO",
+      "name": "-TACOMETRO M. CALANDRA",
+      "area": "Máquina no. 3",
+      "nominal_current": null,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 815,
+      "equipment_key": "MP3-1510-SSPOC",
+      "name": "M. ENROLLADOR",
+      "area": "Máquina no. 3",
+      "nominal_current": 168,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 816,
+      "equipment_key": "MP3-1520-SSPO",
+      "name": "-TACOMETRO  M. ENROLLADOR",
+      "area": "Máquina no. 3",
+      "nominal_current": 100,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 817,
+      "equipment_key": "MP3-1530-SSPO",
+      "name": "M. BRAZOS PRIMARIOS ENROLLADOR",
+      "area": "Máquina no. 3",
+      "nominal_current": 3.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 818,
+      "equipment_key": "MP3-1540-SSPO",
+      "name": "M. DOCTOR No.1  [PRIMEROLL S BOTTOM]\nCALANDRA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.44,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 819,
+      "equipment_key": "MP3-1550-SSPO",
+      "name": "M. DOCTOR No.2 [CONVENTIONAL ROLL 1] \n CALANDRA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.44,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 820,
+      "equipment_key": "MP3-1560-SSPO",
+      "name": "M. DOCTOR No.3  [CONVENTIONAL ROLL 1]\nCALANDRA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.44,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 821,
+      "equipment_key": "MP3-1570-SSPO",
+      "name": "M. DOCTOR No.4  [PRIMEROLL S TOP]\nCALANDRA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.44,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 822,
+      "equipment_key": "MP3-1580-SSPO",
+      "name": "M. DESENROLLADOR(UNWINDREG.BRAKE M.)  EMBOB.",
+      "area": "Máquina no. 3",
+      "nominal_current": 420,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 823,
+      "equipment_key": "MP3-1590-SSPO",
+      "name": "M. VENTILADOR M.DESENR.(UNW.REG.BR.M.FAN)EMBOB",
+      "area": "Máquina no. 3",
+      "nominal_current": 3.4,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 824,
+      "equipment_key": "MP3-1600-SSPO",
+      "name": "M. GUIADOR HOJA (PAPEPRLEADROLL M.)  EMBOB.",
+      "area": "Máquina no. 3",
+      "nominal_current": 44,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 825,
+      "equipment_key": "MP3-1610-SSPO",
+      "name": "M. VENTILADOR  M.GUIADOR HOJA EMBOB.",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.05,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 826,
+      "equipment_key": "MP3-1620-SSPO",
+      "name": "M. CENTRADOR ROLLO(REELCENTER.M.)  EMBOB.",
+      "area": "Máquina no. 3",
+      "nominal_current": 2.25,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 827,
+      "equipment_key": "MP3-1630-SSPO",
+      "name": "M. RODILLO FRONTAL(DRUMNo.1 M.) EMBOB.",
+      "area": "Máquina no. 3",
+      "nominal_current": 335,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 828,
+      "equipment_key": "MP3-1640-SSPO",
+      "name": "M. VENT. M.ROD.FRONT.(DRUM1 M.FAN)EMBOB.",
+      "area": "Máquina no. 3",
+      "nominal_current": 2.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 829,
+      "equipment_key": "MP3-1650-SSPO",
+      "name": "M. RODILLO POSTERIOR(DRUMNo.2 M.) EMBOB.",
+      "area": "Máquina no. 3",
+      "nominal_current": 335,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 830,
+      "equipment_key": "MP3-1660-SSPO",
+      "name": "M. VENT. M.ROD.POST.(DRUM2 M.Fan) EMBOB.",
+      "area": "Máquina no. 3",
+      "nominal_current": 2.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 831,
+      "equipment_key": "MP3-1670-SSPO",
+      "name": "M. CORTADOR DE TUBOS M3",
+      "area": "Máquina no. 3",
+      "nominal_current": 3.17,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 832,
+      "equipment_key": "MP3-1680-SSPO",
+      "name": "M. PLATAFORMA ALMACÉN BOBINAS PAPEL",
+      "area": "Máquina no. 3",
+      "nominal_current": 12.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 833,
+      "equipment_key": "MP3-1690-SSPO",
+      "name": "M. CONTRACUCHILLA No.1  EMBOBINADORA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.35,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 834,
+      "equipment_key": "MP3-1700-SSPO",
+      "name": "M. CONTRACUCHILLA No.2  EMBOBINADORA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.35,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 835,
+      "equipment_key": "MP3-1710-SSPO",
+      "name": "M. CONTRACUCHILLA No.3  EMBOBINADORA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.35,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 836,
+      "equipment_key": "MP3-1720-SSPO",
+      "name": "M. CONTRACUCHILLA No.4  EMBOBINADORA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.35,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 837,
+      "equipment_key": "MP3-1730-SSPO",
+      "name": "M. CONTRACUCHILLA No.5  EMBOBINADORA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.35,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 838,
+      "equipment_key": "MP3-1740-SSPO",
+      "name": "M. CONTRACUCHILLA No.6  EMBOBINADORA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.35,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 839,
+      "equipment_key": "MP3-1750-SSPO",
+      "name": "M. CONTRACUCHILLA No.7  EMBOBINADORA",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.35,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 840,
+      "equipment_key": "MP3-1770-SSPO",
+      "name": "M. GANCHO No.1  GRÚA 20 TON.",
+      "area": "Máquina no. 3",
+      "nominal_current": 31,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 841,
+      "equipment_key": "MP3-1780-SSPO",
+      "name": "M. 1 -CARRO No.1  GRÚA 20 TON.",
+      "area": "Máquina no. 3",
+      "nominal_current": 2.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 842,
+      "equipment_key": "MP3-1790-SSPO",
+      "name": "M. 2 -CARRO No.1  GRÚA 20 TON.",
+      "area": "Máquina no. 3",
+      "nominal_current": 2.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 843,
+      "equipment_key": "MP3-1800-SSPO",
+      "name": "M. GANCHO No.2  GRÚA 20 TON.",
+      "area": "Máquina no. 3",
+      "nominal_current": 31,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 844,
+      "equipment_key": "MP3-1810-SSPO",
+      "name": "M. 1 -CARRO No.2  GRÚA 20 TON.",
+      "area": "Máquina no. 3",
+      "nominal_current": 2.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 845,
+      "equipment_key": "MP3-1820-SSPO",
+      "name": "M. 2 -CARRO No.2  GRÚA 20 TON.",
+      "area": "Máquina no. 3",
+      "nominal_current": 2.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 846,
+      "equipment_key": "MP3-1830-SSPO",
+      "name": "M. 1 -PUENTE  GRÚA 20TON.",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 847,
+      "equipment_key": "MP3-1840-SSPO",
+      "name": "M. 2 -PUENTE  GRÚA 20TON.",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 848,
+      "equipment_key": "MP3-1850-SSPO",
+      "name": "M. 1-CARRO No.1  GRÚA MOVIMIENTO ROLLOS",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 849,
+      "equipment_key": "MP3-1860-SSPO",
+      "name": "M. 2-CARRO No.1 GRÚA MOVIMIENTO ROLLOS",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 850,
+      "equipment_key": "MP3-1870-SSPO",
+      "name": "M. GANCHO No.1  GRÚA MOVIMIENTO ROLLOS",
+      "area": "Máquina no. 3",
+      "nominal_current": 11,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 851,
+      "equipment_key": "MP3-1880-SSPO",
+      "name": "M. 1-CARRO No.2  GRÚA MOVIMIENTO ROLLOS",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 852,
+      "equipment_key": "MP3-1890-SSPO",
+      "name": "M. 2-CARRO No.2 GRÚA MOVIMIENTO ROLLOS",
+      "area": "Máquina no. 3",
+      "nominal_current": 1.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 853,
+      "equipment_key": "MP3-1900-SSPO",
+      "name": "M. GANCHO No.2  GRÚA MOVIMIENTO ROLLOS",
+      "area": "Máquina no. 3",
+      "nominal_current": 11,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 854,
+      "equipment_key": "MP3-1910-SSPO",
+      "name": "M. PUENTE L.OPER.  GRÚA MOVIM.ROLLOS",
+      "area": "Máquina no. 3",
+      "nominal_current": 6.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 855,
+      "equipment_key": "MP3-1920-SSPO",
+      "name": "M. PUENTE L.TRANSM.  GRÚA MOVIM.ROLLOS",
+      "area": "Máquina no. 3",
+      "nominal_current": 6.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 856,
+      "equipment_key": "MP3-1930-SSPO",
+      "name": "M. CORTINA  LADO SUR (ZONA MANIOBRAS)",
+      "area": "Máquina no. 3",
+      "nominal_current": 0.56,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 857,
+      "equipment_key": "MP3-1940-SHPO",
+      "name": "M. CORTINA  LADO NORTE (ÁREA 1a.TELA)",
+      "area": "Máquina no. 3",
+      "nominal_current": 4.8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 858,
+      "equipment_key": "MP3-1950-SSAZ",
+      "name": "M. AIRE LAVADO S.E. SECC.SECA",
+      "area": "Máquina no. 3",
+      "nominal_current": 12.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 859,
+      "equipment_key": "MP3-1960-SSAZ",
+      "name": "M. EXTRACTOR No.1  CAMPANA SEC.",
+      "area": "Máquina no. 3",
+      "nominal_current": 41,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 860,
+      "equipment_key": "MP3-1970-SSAZ",
+      "name": "M. EXTRACTOR No.2  CAMPANA SEC.",
+      "area": "Máquina no. 3",
+      "nominal_current": 31,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 861,
+      "equipment_key": "MP3-1980-SSAZ",
+      "name": "M. EXTRACTOR No.3  CAMPANA SEC.",
+      "area": "Máquina no. 3",
+      "nominal_current": 36.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 862,
+      "equipment_key": "MP3-1990-SSAZ",
+      "name": "M. EXTRACTOR No.4  CAMPANA SEC.",
+      "area": "Máquina no. 3",
+      "nominal_current": 36.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 863,
+      "equipment_key": "MP3-2000-SHAZ",
+      "name": "M. EXTRACTOR VAPOR  MESA SUPERIOR",
+      "area": "Máquina no. 3",
+      "nominal_current": 19,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 864,
+      "equipment_key": "MP3-2010-SHAZ",
+      "name": "M. EXTRACTOR VAPOR  MESA INFERIOR",
+      "area": "Máquina no. 3",
+      "nominal_current": 19,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 865,
+      "equipment_key": "MP3-2020-SHAZ",
+      "name": "M. VENTILADOR  S.E. SECC.HÚMEDA",
+      "area": "Máquina no. 3",
+      "nominal_current": 8,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 866,
+      "equipment_key": "MP3-2030-SHAZ",
+      "name": "M. AIRE LAVADO SECCIÓN HÚMEDA",
+      "area": "Máquina no. 3",
+      "nominal_current": 15.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 867,
+      "equipment_key": "MP3-2050-SHAZ",
+      "name": "M. EXTRACTOR No.1  CASCARONES",
+      "area": "Máquina no. 3",
+      "nominal_current": 3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 868,
+      "equipment_key": "MP3-2060-SHAZ",
+      "name": "M. EXTRACTOR No.2  CASCARONES",
+      "area": "Máquina no. 3",
+      "nominal_current": 3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 869,
+      "equipment_key": "MP3-2070-SHAZ",
+      "name": "M. EXTRACTOR No.3  CASCARONES",
+      "area": "Máquina no. 3",
+      "nominal_current": 3.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 870,
+      "equipment_key": "MP3-2080-SHAZ",
+      "name": "M. EXTRACTOR No.4  CASCARONES",
+      "area": "Máquina no. 3",
+      "nominal_current": 3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 871,
+      "equipment_key": "MP3-2090-SHAZ",
+      "name": "M. EXTRACTOR No.5 CASCARONES",
+      "area": "Máquina no. 3",
+      "nominal_current": 3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 872,
+      "equipment_key": "MP3-2100-SHAZ",
+      "name": "M. EXTRACTOR No.6 CASCARONES",
+      "area": "Máquina no. 3",
+      "nominal_current": 3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 873,
+      "equipment_key": "MP3-2110-SHAZ",
+      "name": "M. EXTRACTOR No.7 CASCARONES",
+      "area": "Máquina no. 3",
+      "nominal_current": 3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 874,
+      "equipment_key": "MP3-2120-SHAZ",
+      "name": "M. EXTRACTOR No.8  CASCARONES",
+      "area": "Máquina no. 3",
+      "nominal_current": 3.2,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 875,
+      "equipment_key": "MP3-2130-PTA",
+      "name": "M. TRANSMISIÓN CLARIFICADOR <CS-01> P.T.A.",
+      "area": "Máquina no. 3",
+      "nominal_current": 2.68,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 876,
+      "equipment_key": "MP3-2140-PTA",
+      "name": "MB 1 RECIRC.LODOS <B-03A>  P.T.A.",
+      "area": "Máquina no. 3",
+      "nominal_current": 6.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 877,
+      "equipment_key": "MP3-2150-PTA",
+      "name": "MB 2 RECIRC.LODOS <B-03B>  P.T.A.",
+      "area": "Máquina no. 3",
+      "nominal_current": 6.6,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 878,
+      "equipment_key": "MP3-2160-PTA",
+      "name": "MB PRINCIPAL ALIM. A TANQUE BUFFER",
+      "area": "Máquina no. 3",
+      "nominal_current": 46,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 879,
+      "equipment_key": "MP3-2170-PTA",
+      "name": "MB AUX. ALIM. A TANQUE BUFFER",
+      "area": "Máquina no. 3",
+      "nominal_current": 48,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 880,
+      "equipment_key": "MP3-2180-PTA",
+      "name": "MB PRINC. RECIRCULACIÓN A TPA  P.T.A.",
+      "area": "Máquina no. 3",
+      "nominal_current": 19,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 881,
+      "equipment_key": "MP3-2182-PTA",
+      "name": "MB AUX. RECIRCULACIÓN A TPA  P.T.A.",
+      "area": "Máquina no. 3",
+      "nominal_current": 11.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 882,
+      "equipment_key": "MP3-2190-PTA",
+      "name": "M. MEZCLADOR DIFUSOR 1 <M-01A>  P.T.A.",
+      "area": "Máquina no. 3",
+      "nominal_current": 24.95,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 883,
+      "equipment_key": "MP3-2200-PTA",
+      "name": "M. MEZCLADOR DIFUSOR 2 <M-01B>  P.T.A.",
+      "area": "Máquina no. 3",
+      "nominal_current": 24.95,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 884,
+      "equipment_key": "MP3-2210-PTA",
+      "name": "MB ALIM. REACT.ANAEROB. <RAN-01>  P.T.A.",
+      "area": "Máquina no. 3",
+      "nominal_current": 18.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 885,
+      "equipment_key": "MP3-2220-PTA",
+      "name": "MB 1 ENVÍO A REACTOR 1C <B-02A>  P.T.A.",
+      "area": "Máquina no. 3",
+      "nominal_current": 41,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 886,
+      "equipment_key": "MP3-2230-PTA",
+      "name": "MB 2 ENVÍO A REACTOR 1C <B-02B>  P.T.A.",
+      "area": "Máquina no. 3",
+      "nominal_current": 37,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 887,
+      "equipment_key": "MP3-2240-PTA",
+      "name": "M. SOPLADOR AIRE <S-01A>  P.T.A.",
+      "area": "Máquina no. 3",
+      "nominal_current": 46,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 888,
+      "equipment_key": "MP3-2250-PTA",
+      "name": "M. VENTILADOR SOPLADOR AIRE A",
+      "area": "Máquina no. 3",
+      "nominal_current": null,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 889,
+      "equipment_key": "MP3-2260-PTA",
+      "name": "M. SOPLADOR AIRE <S-01B>  P.T.A.",
+      "area": "Máquina no. 3",
+      "nominal_current": 65.1,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 890,
+      "equipment_key": "MP3-2270-PTA",
+      "name": "M. SOPLADOR AIRE <S-01C>  P.T.A.",
+      "area": "Máquina no. 3",
+      "nominal_current": 79.5,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 891,
+      "equipment_key": "MP3-2280-PTA",
+      "name": "M. VENTILADOR SOPLADOR AIRE C",
+      "area": "Máquina no. 3",
+      "nominal_current": null,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 892,
+      "equipment_key": "MP3-2290-PTA",
+      "name": "M. MEZCLADOR NEUTRALIZ. <ME-02A> 208A  P.T.A.",
+      "area": "Máquina no. 3",
+      "nominal_current": 9.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 893,
+      "equipment_key": "MP3-2300-PTA",
+      "name": "M. MEZCLADOR NEUTRALIZ. <ME-02B>208B  P.T.A.",
+      "area": "Máquina no. 3",
+      "nominal_current": 9.3,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 894,
+      "equipment_key": "MP3-2310-PTA",
+      "name": "M. EXTRACTOR ATMÓSFERA TQ-01 <EX-01>  P.T.A.",
+      "area": "Máquina no. 3",
+      "nominal_current": 2.9,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 895,
+      "equipment_key": "MP3-2320-PTA",
+      "name": "MB ENVÍO TQ.PRE-ACIDIF. <B-01A>  P.T.A.",
+      "area": "Máquina no. 3",
+      "nominal_current": 23,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 896,
+      "equipment_key": "MP3-2330-PTA",
+      "name": "MB ENVÍO TQ.PRE-ACIDIF. <B-01B>  P.T.A.",
+      "area": "Máquina no. 3",
+      "nominal_current": 28,
+      "critical": 0,
+      "active": 1
+    },
+    {
+      "id": 900,
+      "equipment_key": "MP2-010",
+      "name": "M.B. Vacio no. 1",
+      "area": "Máquina no. 2",
+      "nominal_current": null,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 901,
+      "equipment_key": "MP2-011",
+      "name": "M.B. Vacio no. 2",
+      "area": "Máquina no. 2",
+      "nominal_current": null,
+      "critical": 1,
+      "active": 1
+    },
+    {
+      "id": 902,
+      "equipment_key": "CP-001",
+      "name": "Bomba central de pastas",
+      "area": "Central de pastas",
+      "nominal_current": null,
+      "critical": 0,
+      "active": 1
+    }
+  ],
+  "inspections": [],
+  "inspectionDetails": []
+}

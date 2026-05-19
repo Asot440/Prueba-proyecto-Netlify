@@ -1,0 +1,22 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "Proyecto revision de motores",
+  "license": "ISC",
+  "author": "Adrian MG",
+  "type": "commonjs",
+  "main": "netlify/functions/api.mjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node --input-type=module -e \"import('./netlify/functions/api.mjs').then(() => console.log('Usa Netlify para ejecutar la funcion localmente.'))\"",
+    "dev": "node --input-type=module -e \"import('./netlify/functions/api.mjs').then(() => console.log('Usa `netlify dev` para desarrollo local completo.'))\"",
+    "create-user": "node scripts/create-user.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^10.7.8",
+    "bcrypt": "^6.0.0"
+  }
+}

@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoreo de equipos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="dashboard-page">
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-mini">
+                <img class="header-logo" src="img/print-logo.jpg" alt="Smurfit WestRock">
+                <span>Monitoreo de equipos</span>
+            </div>
+            <div class="header-actions">
+                <div class="user-menu">
+                    <button class="btn-user" id="userMenuBtn">
+                        <span class="user-avatar">AR</span>
+                        <span class="user-name">Admin</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="dropdown-menu" id="userDropdown">
+                        <a href="#" class="dropdown-item logout" id="logoutBtn">Cerrar Sesión</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <nav class="nav-menu">
+                <div class="nav-item active" data-page="home">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                    <span>Inicio</span>
+                </div>
+
+                <div class="nav-divider">Monitoreo</div>
+
+                <div class="nav-item" data-page="critical">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                        <polyline points="2 12 12 17 22 12"></polyline>
+                        <polyline points="2 17 12 22 22 17"></polyline>
+                    </svg>
+                    <span>Revisión de Equipo Crítico</span>
+                </div>
+
+                <div class="nav-item" data-page="general">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <rect x="3" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="14" width="7" height="7"></rect>
+                        <rect x="3" y="14" width="7" height="7"></rect>
+                    </svg>
+                    <span>Revisión de Equipo General</span>
+                </div>
+
+                <div class="nav-item" data-page="critical-query">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path d="M8 6h13"></path>
+                        <path d="M8 12h13"></path>
+                        <path d="M8 18h13"></path>
+                        <path d="M3 6h.01"></path>
+                        <path d="M3 12h.01"></path>
+                        <path d="M3 18h.01"></path>
+                    </svg>
+                    <span>Consultar Revisi&oacute;n Equipo Cr&iacute;tico</span>
+                </div>
+
+                <div class="nav-item" data-page="general-query">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path d="M8 6h13"></path>
+                        <path d="M8 12h13"></path>
+                        <path d="M8 18h13"></path>
+                        <path d="M3 6h.01"></path>
+                        <path d="M3 12h.01"></path>
+                        <path d="M3 18h.01"></path>
+                    </svg>
+                    <span>Consultar Revisi&oacute;n Equipo General</span>
+                </div>
+
+                <div class="nav-item" data-page="equipment">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <rect x="3" y="4" width="18" height="14" rx="2"></rect>
+                        <path d="M7 20h10"></path>
+                        <path d="M9 8h6"></path>
+                        <path d="M9 12h6"></path>
+                    </svg>
+                    <span>Equipos</span>
+                </div>
+
+                <div class="nav-divider">Otros</div>
+
+                <div class="nav-item" data-page="users">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                    <span>Usuarios</span>
+                </div>
+
+                <div class="nav-item" data-page="reports">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                    <span>Reportes</span>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Page: Home -->
+            <div class="page active" id="home-page">
+                <div class="page-header">
+                    <h1>Bienvenido al Sistema de Monitoreo</h1>
+                </div>
+
+                <div class="home-layout">
+                    <aside class="home-sidebar">
+                        <div class="card card-clickable home-card" data-action="critical">
+                            <div class="card-icon critical">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2L22 20H2Z"></path>
+                                    <path d="M12 9v4"></path>
+                                    <path d="M12 17h.01"></path>
+                                </svg>
+                            </div>
+                            <h3>Revisión de Equipo Crítico</h3>
+                            <p>Registro diario de equipos que detienen la operaci&oacute;n si fallan.</p>
+                            <div class="card-footer">
+                                <span class="card-action-label">Abrir revisi&oacute;n</span>
+                                <span class="arrow">&rarr;</span>
+                            </div>
+                        </div>
+
+                        <div class="card card-clickable home-card" data-action="general">
+                            <div class="card-icon general">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg>
+                            </div>
+                            <h3>Revisión de Equipo General</h3>
+                            <p>Registro quincenal de equipos generales por &aacute;rea.</p>
+                            <div class="card-footer">
+                                <span class="card-action-label">Abrir revisi&oacute;n</span>
+                                <span class="arrow">&rarr;</span>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <section class="home-reports">
+                        <div class="reports-panel">
+                            <div class="reports-header">
+                                <div>
+                                    <h2>Reportes</h2>
+                                    <p>Hallazgos pendientes de atenci&oacute;n.</p>
+                                </div>
+                                <div class="report-filter-group">
+                                    <label for="reportAreaSelect">&Aacute;rea</label>
+                                    <select id="reportAreaSelect" class="report-area-select">
+                                        <option value="">Todas</option>
+                                        <option>Central de pastas</option>
+                                        <option>M&aacute;quina no. 2</option>
+                                        <option>M&aacute;quina no. 3</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="report-list" id="followUpReportList"></div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Page: Critical -->
+            <div class="page" id="critical-page">
+                <div class="page-header">
+                    <h1>Revisión de Equipo Crítico</h1>
+                    <p>Recorrido diario de equipos que detienen la máquina si fallan</p>
+                </div>
+
+                <div class="equipment-db-layout single-column">
+                    <section class="equipment-panel">
+                        <div class="panel-header">
+                            <h2>Corriente en subestaci&oacute;n</h2>
+                        </div>
+                        <form id="criticalCurrentForm" class="daily-reading-form">
+                            <select id="criticalCurrentArea" required>
+                                <option value="">&Aacute;rea</option>
+                                <option>Central de pastas</option>
+                                <option>M&aacute;quina no. 2</option>
+                                <option>M&aacute;quina no. 3</option>
+                            </select>
+                            <select id="criticalCurrentEquipment" required></select>
+                            <input type="number" id="criticalCurrentValue" placeholder="Corriente A" step="0.1" required>
+                            <button type="submit" class="btn btn-primary">Guardar corriente</button>
+                        </form>
+                    </section>
+
+                    <section class="equipment-panel">
+                        <div class="panel-header">
+                            <h2>Revisi&oacute;n f&iacute;sica del motor</h2>
+                        </div>
+                        <form id="criticalReadingForm" class="daily-reading-form">
+                            <select id="criticalReadingArea" required>
+                                <option value="">Área</option>
+                                <option>Central de pastas</option>
+                                <option>Máquina no. 2</option>
+                                <option>Máquina no. 3</option>
+                            </select>
+                            <select id="criticalReadingEquipment" required></select>
+                            <label class="inline-check">
+                                <input type="checkbox" id="criticalReadingStopped">
+                                <span>Equipo parado</span>
+                            </label>
+                            <input type="number" id="criticalReadingTemperature" placeholder="Temperatura °C" step="0.1" required>
+                            <label class="inline-check">
+                                <input type="checkbox" id="criticalReadingVibration">
+                                <span>Vibración</span>
+                            </label>
+                            <label class="inline-check">
+                                <input type="checkbox" id="criticalReadingNoise">
+                                <span>Ruido</span>
+                            </label>
+                            <label class="inline-check">
+                                <input type="checkbox" id="criticalReadingCleaning">
+                                <span>Requiere limpieza</span>
+                            </label>
+                            <textarea id="criticalReadingComments" placeholder="Comentarios" rows="3"></textarea>
+                            <button type="submit" class="btn btn-primary">Guardar revisi&oacute;n f&iacute;sica</button>
+                        </form>
+                    </section>
+
+                    <section class="equipment-panel equipment-panel-wide">
+                        <div class="panel-header">
+                            <h2>Últimos registros críticos</h2>
+                        </div>
+                        <div class="equipment-table-wrap">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Fecha</th>
+                                        <th>Clave</th>
+                                        <th>Equipo</th>
+                                        <th>Temp</th>
+                                        <th>Corriente</th>
+                                        <th>Hallazgos</th>
+                                        <th>Comentarios</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="criticalReadingsTableBody"></tbody>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Page: Equipment -->
+            <div class="page" id="equipment-page">
+                <div class="page-header">
+                    <h1>Equipos</h1>
+                    <p>Catálogo de equipos registrados por área</p>
+                </div>
+
+                <div class="equipment-db-layout">
+                    <section class="equipment-panel">
+                        <div class="panel-header">
+                            <h2>Registrar o editar equipo</h2>
+                        </div>
+                        <form id="equipmentForm" class="equipment-form">
+                            <input type="hidden" id="equipmentId">
+                            <input type="text" id="equipmentKey" placeholder="Clave del equipo" required>
+                            <input type="text" id="equipmentName" placeholder="Nombre del equipo" required>
+                            <select id="equipmentArea" required>
+                                <option value="">Área</option>
+                                <option>Central de pastas</option>
+                                <option>Máquina no. 2</option>
+                                <option>Máquina no. 3</option>
+                            </select>
+                            <input type="number" id="equipmentNominalCurrent" placeholder="Corriente nominal A" step="0.1" min="0">
+                            <label class="inline-check">
+                                <input type="checkbox" id="equipmentCritical">
+                                <span>Crítico</span>
+                            </label>
+                            <label class="inline-check">
+                                <input type="checkbox" id="equipmentActive" checked>
+                                <span>Activo</span>
+                            </label>
+                            <button type="submit" class="btn btn-primary" id="equipmentSubmitBtn">Guardar equipo</button>
+                            <button type="button" class="btn btn-secondary" id="equipmentCancelBtn">Cancelar edición</button>
+                        </form>
+                    </section>
+
+                    <section class="equipment-panel equipment-panel-wide">
+                        <div class="panel-header">
+                            <h2>Equipos registrados</h2>
+                            <div class="equipment-filters">
+                                <select id="equipmentAreaFilter" class="report-area-select">
+                                    <option value="">Todas las áreas</option>
+                                </select>
+                                <select id="equipmentTypeFilter" class="report-area-select">
+                                    <option value="">Todos los tipos</option>
+                                    <option value="general">General</option>
+                                    <option value="critical">Crítico</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="equipment-table-wrap">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Clave</th>
+                                        <th>Equipo</th>
+                                        <th>Área</th>
+                                        <th>Corriente nominal</th>
+                                        <th>Tipo</th>
+                                        <th>Estado</th>
+                                        <th>Acciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="equipmentTableBody"></tbody>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Page: General -->
+            <div class="page" id="general-page">
+                <div class="page-header">
+                    <h1>Revisión de Equipo General</h1>
+                    <p>Recorrido quincenal para equipos generales de planta</p>
+                </div>
+
+                <div class="equipment-db-layout single-column">
+                    <section class="equipment-panel">
+                        <div class="panel-header">
+                            <h2>Corriente en subestaci&oacute;n</h2>
+                        </div>
+                        <form id="currentReadingForm" class="daily-reading-form">
+                            <select id="currentReadingArea" required>
+                                <option value="">&Aacute;rea</option>
+                                <option>Central de pastas</option>
+                                <option>M&aacute;quina no. 2</option>
+                                <option>M&aacute;quina no. 3</option>
+                            </select>
+                            <select id="currentReadingEquipment" required></select>
+                            <input type="number" id="currentReadingValue" placeholder="Corriente A" step="0.1" required>
+                            <button type="submit" class="btn btn-primary">Guardar corriente</button>
+                        </form>
+                    </section>
+
+                    <section class="equipment-panel">
+                        <div class="panel-header">
+                            <h2>Revisi&oacute;n f&iacute;sica del motor</h2>
+                        </div>
+                        <form id="dailyReadingForm" class="daily-reading-form">
+                            <select id="readingArea" required>
+                                <option value="">Área</option>
+                                <option>Central de pastas</option>
+                                <option>Máquina no. 2</option>
+                                <option>Máquina no. 3</option>
+                            </select>
+                            <select id="readingEquipment" required></select>
+                            <label class="inline-check">
+                                <input type="checkbox" id="readingStopped">
+                                <span>Equipo parado</span>
+                            </label>
+                            <input type="number" id="readingTemperature" placeholder="Temperatura °C" step="0.1" required>
+                            <label class="inline-check">
+                                <input type="checkbox" id="readingVibration">
+                                <span>Vibración</span>
+                            </label>
+                            <label class="inline-check">
+                                <input type="checkbox" id="readingNoise">
+                                <span>Ruido</span>
+                            </label>
+                            <label class="inline-check">
+                                <input type="checkbox" id="readingCleaning">
+                                <span>Requiere limpieza</span>
+                            </label>
+                            <textarea id="readingComments" placeholder="Comentarios" rows="3"></textarea>
+                            <button type="submit" class="btn btn-primary">Guardar revisi&oacute;n f&iacute;sica</button>
+                        </form>
+                    </section>
+
+                    <section class="equipment-panel equipment-panel-wide">
+                        <div class="panel-header">
+                            <h2>Últimos registros</h2>
+                        </div>
+                        <div class="equipment-table-wrap">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Fecha</th>
+                                        <th>Clave</th>
+                                        <th>Equipo</th>
+                                        <th>Temp</th>
+                                        <th>Corriente</th>
+                                        <th>Hallazgos</th>
+                                        <th>Comentarios</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="dailyReadingsTableBody"></tbody>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Page: Critical Query -->
+            <div class="page" id="critical-query-page">
+                <div class="page-header">
+                    <h1>Consultar Revisi&oacute;n Equipo Cr&iacute;tico</h1>
+                    <p>Visualiza los registros diarios del equipo cr&iacute;tico por fecha</p>
+                </div>
+                <div class="print-sheet-header" data-print-header="critical"></div>
+
+                <div class="equipment-db-layout single-column">
+                    <section class="equipment-panel equipment-panel-wide">
+                        <div class="reports-toolbar review-query-toolbar">
+                            <div class="report-filter-group">
+                                <label for="criticalQueryDate">D&iacute;a</label>
+                                <input type="date" id="criticalQueryDate" class="report-area-select">
+                            </div>
+                            <div class="report-filter-group">
+                                <label for="criticalQueryArea">&Aacute;rea</label>
+                                <select id="criticalQueryArea" class="report-area-select">
+                                    <option value="">Todas</option>
+                                    <option>Central de pastas</option>
+                                    <option>M&aacute;quina no. 2</option>
+                                    <option>M&aacute;quina no. 3</option>
+                                </select>
+                            </div>
+                            <button type="button" class="btn btn-primary" id="criticalQueryBtn">Consultar</button>
+                            <button type="button" class="btn btn-secondary" id="criticalPrintBtn">Imprimir</button>
+                        </div>
+
+                        <div class="equipment-table-wrap">
+                            <table class="data-table review-query-table">
+                                <thead>
+                                    <tr>
+                                        <th>Fecha</th>
+                                        <th>&Aacute;rea</th>
+                                        <th>Clave</th>
+                                        <th>Equipo</th>
+                                        <th>Temp</th>
+                                        <th>Corriente</th>
+                                        <th>Hallazgos</th>
+                                        <th>Comentarios</th>
+                                        <th>Usuario</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="criticalQueryTableBody"></tbody>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+                <div class="print-sheet-footer" data-print-footer="critical"></div>
+            </div>
+
+            <!-- Page: General Query -->
+            <div class="page" id="general-query-page">
+                <div class="page-header">
+                    <h1>Consultar Revisi&oacute;n Equipo General</h1>
+                    <p>Visualiza los registros del equipo general por fecha</p>
+                </div>
+                <div class="print-sheet-header" data-print-header="general"></div>
+
+                <div class="equipment-db-layout single-column">
+                    <section class="equipment-panel equipment-panel-wide">
+                        <div class="reports-toolbar review-query-toolbar">
+                            <div class="report-filter-group">
+                                <label for="generalQueryDate">D&iacute;a</label>
+                                <input type="date" id="generalQueryDate" class="report-area-select">
+                            </div>
+                            <div class="report-filter-group">
+                                <label for="generalQueryArea">&Aacute;rea</label>
+                                <select id="generalQueryArea" class="report-area-select">
+                                    <option value="">Todas</option>
+                                    <option>Central de pastas</option>
+                                    <option>M&aacute;quina no. 2</option>
+                                    <option>M&aacute;quina no. 3</option>
+                                </select>
+                            </div>
+                            <button type="button" class="btn btn-primary" id="generalQueryBtn">Consultar</button>
+                            <button type="button" class="btn btn-secondary" id="generalPrintBtn">Imprimir</button>
+                        </div>
+
+                        <div class="equipment-table-wrap">
+                            <table class="data-table review-query-table">
+                                <thead>
+                                    <tr>
+                                        <th>Fecha</th>
+                                        <th>&Aacute;rea</th>
+                                        <th>Clave</th>
+                                        <th>Equipo</th>
+                                        <th>Temp</th>
+                                        <th>Corriente</th>
+                                        <th>Hallazgos</th>
+                                        <th>Comentarios</th>
+                                        <th>Usuario</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="generalQueryTableBody"></tbody>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+                <div class="print-sheet-footer" data-print-footer="general"></div>
+            </div>
+
+            <!-- Page: Users -->
+            <div class="page" id="users-page">
+                <div class="page-header">
+                    <h1>Usuarios</h1>
+                    <p>Registra usuarios, edita sus datos y administra permisos</p>
+                </div>
+
+                <div class="equipment-db-layout">
+                    <section class="equipment-panel">
+                        <div class="panel-header">
+                            <h2>Registrar o editar usuario</h2>
+                        </div>
+                        <form id="userForm" class="user-form">
+                            <input type="hidden" id="userId">
+                            <input type="text" id="userUsername" placeholder="Usuario" required>
+                            <input type="password" id="userPassword" placeholder="Contraseña">
+                            <select id="userRole" required>
+                                <option value="viewer">Visualizador</option>
+                                <option value="technician">Técnico</option>
+                                <option value="supervisor">Supervisor</option>
+                                <option value="admin">Administrador</option>
+                            </select>
+                            <div class="permissions-panel">
+                                <div class="permissions-header">
+                                    <strong>Permisos</strong>
+                                    <button type="button" class="btn-table-action" id="applyRolePermissions">
+                                        Usar permisos del rol
+                                    </button>
+                                </div>
+                                <div class="permissions-grid" id="userPermissions"></div>
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="userSubmitBtn">Guardar usuario</button>
+                            <button type="button" class="btn btn-secondary" id="userCancelBtn">Cancelar edición</button>
+                        </form>
+                    </section>
+
+                    <section class="equipment-panel equipment-panel-wide">
+                        <div class="panel-header">
+                            <h2>Usuarios registrados</h2>
+                        </div>
+                        <div class="equipment-table-wrap">
+                            <table class="data-table users-table">
+                                <thead>
+                                    <tr>
+                                        <th>Usuario</th>
+                                        <th>Rol</th>
+                                        <th>Permisos</th>
+                                        <th>Acciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="usersTableBody"></tbody>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Page: Reports -->
+            <div class="page" id="reports-page">
+                <div class="page-header reports-main-header">
+                    <h1>Reportes</h1>
+                    <p>Visualiza todos los registros generados en las revisiones</p>
+                </div>
+                <div class="equipment-db-layout single-column reports-page-layout">
+                    <section class="equipment-panel equipment-panel-wide">
+                        <div class="reports-toolbar">
+                            <div class="report-filter-group">
+                                <label for="reportsAreaFilter">&Aacute;rea</label>
+                                <select id="reportsAreaFilter" class="report-area-select">
+                                    <option value="">Todas</option>
+                                    <option>Central de pastas</option>
+                                    <option>M&aacute;quina no. 2</option>
+                                    <option>M&aacute;quina no. 3</option>
+                                </select>
+                            </div>
+                            <div class="report-filter-group">
+                                <label for="reportsDateFilter">D&iacute;a</label>
+                                <input type="date" id="reportsDateFilter" class="report-area-select">
+                            </div>
+                            <div class="report-filter-group">
+                                <label for="reportsFindingFilter">Hallazgo</label>
+                                <select id="reportsFindingFilter" class="report-area-select">
+                                    <option value="">Todos</option>
+                                    <option value="vibration">Vibraci&oacute;n</option>
+                                    <option value="noise">Ruido</option>
+                                    <option value="cleaning">Requiere limpieza</option>
+                                    <option value="comments">Comentario</option>
+                                    <option value="overloaded">Sobrecargado</option>
+                                </select>
+                            </div>
+                            <button type="button" class="btn btn-secondary reports-clear-btn" id="reportsClearFilters">
+                                Limpiar filtros
+                            </button>
+                        </div>
+
+                        <div class="equipment-table-wrap">
+                            <table class="data-table reports-table">
+                                <thead>
+                                    <tr>
+                                        <th>Fecha</th>
+                                        <th>Revisi&oacute;n</th>
+                                        <th>&Aacute;rea</th>
+                                        <th>Clave</th>
+                                        <th>Equipo</th>
+                                        <th>Temp</th>
+                                        <th>Corriente</th>
+                                        <th>Hallazgos</th>
+                                        <th>Comentarios</th>
+                                        <th>Acci&oacute;n</th>
+                                        <th>Usuario</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="reportsTableBody"></tbody>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
