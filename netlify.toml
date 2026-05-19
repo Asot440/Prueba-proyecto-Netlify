@@ -4,6 +4,7 @@
 
 [functions]
   node_bundler = "esbuild"
+  included_files = ["data/bootstrap.json"]
 
 [dev]
   publish = "public"
