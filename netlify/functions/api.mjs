@@ -75,6 +75,17 @@ export default async (request) => {
             return json(state.users.map(publicUser).sort((left, right) => left.username.localeCompare(right.username)));
         }
 
+        if (request.method === 'GET' && route === '/debug/state-summary') {
+            const state = await getState();
+            requirePermission(state, getUserId(request, body), 'users:read');
+            return json({
+                users: state.users.length,
+                motors: state.motors.length,
+                inspections: state.inspections.length,
+                inspectionDetails: state.inspectionDetails.length
+            });
+        }
+
         if (request.method === 'POST' && route === '/users') {
             const result = await updateState(async (state) => {
                 requirePermission(state, getUserId(request, body), 'users:create');

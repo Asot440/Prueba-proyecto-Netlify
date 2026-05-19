@@ -252,7 +252,17 @@ function showPage(page) {
 }
 
 async function loadEquipment() {
-    return API.get('/api/equipment?includeInactive=1');
+    const result = await API.get('/api/equipment?includeInactive=1');
+
+    if (Array.isArray(result)) {
+        return result;
+    }
+
+    if (Array.isArray(result?.equipment)) {
+        return result.equipment;
+    }
+
+    throw new Error(result?.message || 'La API de equipos no devolvio un arreglo valido');
 }
 
 let equipmentCache = [];
@@ -305,6 +315,10 @@ function refreshReviewEquipmentOptions() {
 }
 
 function renderEquipment(equipment) {
+    if (!Array.isArray(equipment)) {
+        throw new Error('La lista de equipos no tiene el formato esperado');
+    }
+
     equipmentCache = equipment;
     const tableBody = document.getElementById('equipmentTableBody');
     const areaFilter = document.getElementById('equipmentAreaFilter');
